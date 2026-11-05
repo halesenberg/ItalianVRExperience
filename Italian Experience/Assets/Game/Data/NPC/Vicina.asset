@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe63b3fb9420742914d4d308354804, type: 3}
+  m_Name: Vicina
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.NPCData
+  npcId: Lina
+  displayName: Lina
+  bio: Vicina di casa, ama cucinare. Adotta subito l'utente come "figlio", lo aiuta,
+    parla lentamente, e usa i gesti.
+  greetingFast: {fileID: 0}
+  greetingSlow: {fileID: 0}
+  speechRate: 1
+  languageFunctions:
+  - Scusarsi
+  - Conoscersi
+  - Presentarsi
+  - Complimentarsi
+  - Presentare luoghi
+  - Dare istruzioni
+  chapters:
+  - chapterIndex: 2
+    trees:
+    - treeId: carla_presentazione
+      entryNodeId: node_01
+      nodes:
+      - nodeId: node_01
+        npcLine_IT: Ops, scusa!
+        npcLine_EN: Oops, sorry!
+        npcVoice: {fileID: 8300000, guid: e311b3361b415c249b826c161c80be47, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Nessun problema.
+          text_EN: No problem.
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - nessun problema
+          - va bene
+          - tranquilla
+          - ok
+        - text_IT: Attenta!
+          text_EN: Careful!
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - attenta
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 'Choose and read an option aloud. (20 seconds) '
+        timeoutSeconds: 20
+        timeoutNodeId:
+        animationTrigger:
+        vocabularyTag:
+        keyPhraseIT:
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId:
+      - nodeId: node_02
+        npcLine_IT: Sei nuovo qui?
+        npcLine_EN: Are you new here?
+        npcVoice: {fileID: 8300000, guid: cc768fe1446a3534e94ca1cea0f27bd6, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "S\xEC, sono nuovo."
+          text_EN: Yes, I'm new.
+          nextNodeId: node_chiedi_nome
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - si
+          - sono nuovo
+        - text_IT: Sono appena arrivato.
+          text_EN: I just arrived here.
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - sono appena arrivato
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 15
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_chiedi_nome
+        npcLine_IT: Ciao, come ti chiami?
+        npcLine_EN: Hello! What's your name?
+        npcVoice: {fileID: 8300000, guid: 320bb94583a79ca49854516ed575d560, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: node_dopo_nome
+        useVoiceInput: 1
+        isNameCapture: 1
+        voicePromptIT: Say your name.
+        timeoutSeconds: 4
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_dopo_nome
+        npcLine_IT: '{playerName}, bel nome!'
+        npcLine_EN: '{playerName}, nice name!'
+        npcVoice: {fileID: 8300000, guid: b0e10da8c27ecf94ca16e2b5de96b93e, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Grazie!
+          text_EN: Thank you!
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - grazie
+          - grazie mille
+        - text_IT: Piacere!
+          text_EN: Nice to meet you!
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - piacere
+          - molto piacere
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 15
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_03
+        npcLine_IT: Dove vai?
+        npcLine_EN: Where are you going?
+        npcVoice: {fileID: 8300000, guid: 44aadd9367ba3ff449fb1a91a762337e, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Vado a casa.
+          text_EN: I am going home.
+          nextNodeId: node_04
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - vado a casa
+          - a casa
+        - text_IT: Vado al bar.
+          text_EN: I am going to the bar.
+          nextNodeId: node_04
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - vado al bar
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 15
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_04
+        npcLine_IT: Io sono la tua vicina.
+        npcLine_EN: I'm your neighbour.
+        npcVoice: {fileID: 8300000, guid: 747d11d3e31a1d24e997433c6f688806, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Piacere!
+          text_EN: Nice to meet you!
+          nextNodeId: node_05
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - piacere
+          - molto piacere
+        - text_IT: Che bello!
+          text_EN: That's great!
+          nextNodeId: node_05
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - che bello
+          - bello
+          - che bella
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 15
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_05
+        npcLine_IT: Vieni, ti porto in giro!
+        npcLine_EN: Come on, I'll show you around!
+        npcVoice: {fileID: 8300000, guid: 51c201d98eb22be488ef0fb47e4a91a2, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 0
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+    - treeId: carla_casa
+      entryNodeId: node_c1
+      nodes:
+      - nodeId: node_c1
+        npcLine_IT: Ecco casa tua, {playerName}!
+        npcLine_EN: Here's your home, {playerName}!
+        npcVoice: {fileID: 8300000, guid: 8c1c66a9de4b2954abdc8b7e6d4a72d7, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Grazie mille!
+          text_EN: Thank you so much!
+          nextNodeId: node_c2
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - grazie
+          - grazie mille
+        - text_IT: Perfetto!
+          text_EN: Perfect!
+          nextNodeId: node_c1
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - perfetto!
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 15
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_c2
+        npcLine_IT: Cammina verso la porta per entrare.
+        npcLine_EN: Walk towards the door to enter.
+        npcVoice: {fileID: 8300000, guid: 0843697bd4c1f7741ae9fb90996d9461, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "S\xEC, va bene!"
+          text_EN: Yes, okay!
+          nextNodeId: node_c3
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - si va bene
+          - va bene
+        - text_IT: Prego?
+          text_EN: Excuse me?
+          nextNodeId: node_c2
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - prego
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 15
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_c3
+        npcLine_IT: Bene! A domani, arrivederci!
+        npcLine_EN: Good! See you tomorrow, bye!
+        npcVoice: {fileID: 8300000, guid: a361236f5bbd4e64ea1960d9b67e38e8, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Ciao, grazie!
+          text_EN: Bye, thank you!
+          nextNodeId: 
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - ciao
+          - grazie
+          - grazie mille
+        - text_IT: A domani!
+          text_EN: See you tomorrow!
+          nextNodeId: 
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - prego
+          - a domani
+          - arrivederci
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 15
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 

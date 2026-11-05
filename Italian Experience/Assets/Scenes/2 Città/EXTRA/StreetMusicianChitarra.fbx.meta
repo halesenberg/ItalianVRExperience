@@ -1,0 +1,5561 @@
+fileFormatVersion: 2
+guid: ffd08063d333d474a8f05e6165648d5c
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: skeletonJoint_89_52
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_91_9
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_90_5
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_105_7
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_102_2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_106_6
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_103_3
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_82_51
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_80_50
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_88_13
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_95_33
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_86_14
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_87_15
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_92_23
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_93_19
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_101_41
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_57_44
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_99_26
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_33_28
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_34_29
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_94_22
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_30_25
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_32_27
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_25_20
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_26_21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_29_24
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_100_30
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_36_31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_37_32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_22_17
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_21_16
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_23_18
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_81_10
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_85_12
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_96_34
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_51_38
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skeletonJoint_52_39
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: StreetMusicianChitarra(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.91487515, y: 5.839475e-17, z: 0.40373686, w: 1.9340412e-17}
+      scale: {x: 0.30000004, y: 0.3, z: 0.30000004}
+    - name: Musician
+      parentName: StreetMusicianChitarra(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Musician
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GLTF_SceneRootNode
+      parentName: root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _0
+      parentName: GLTF_SceneRootNode
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marshall_JTM_Sauveur_V2018_187
+      parentName: _0
+      position: {x: -3.709307, y: 5.028598, z: 8.881784e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5, y: 5, z: 5}
+    - name: Assembly_1_188
+      parentName: Marshall_JTM_Sauveur_V2018_187
+      position: {x: -0.3775, y: -0.1925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0254, y: 0.0254, z: 0.0254}
+    - name: Assembly_2_189
+      parentName: Assembly_1_188
+      position: {x: 30.489653, y: 1.3027362, z: -64.51504}
+      rotation: {x: 0.30586419, y: -0.41907907, z: 0.57398635, w: 0.6335294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _6764__194
+      parentName: Assembly_2_189
+      position: {x: 1.4425427, y: 5.3351884, z: -1.0685813}
+      rotation: {x: 0.083026595, y: 0.52786267, z: 0.049559265, w: 0.84380776}
+      scale: {x: 0.0019900405, y: 0.00199004, z: 0.0019900398}
+    - name: _3DGeom_2_195
+      parentName: _6764__194
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _197
+      parentName: _3DGeom_2_195
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _196
+      parentName: _197
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_248
+      parentName: _196
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _9980__206
+      parentName: Assembly_2_189
+      position: {x: 0.8363586, y: 5.2630606, z: -0.73693645}
+      rotation: {x: 0.07438909, y: 0.274921, z: -0.04355795, w: 0.95759463}
+      scale: {x: 0.00019422855, y: 0.00019422849, z: 0.00019422853}
+    - name: _3DGeom_5_207
+      parentName: _9980__206
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _209
+      parentName: _3DGeom_5_207
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _208
+      parentName: _209
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_263
+      parentName: _208
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _9980__218
+      parentName: Assembly_2_189
+      position: {x: 0.8363586, y: 5.2630606, z: -0.73693645}
+      rotation: {x: 0.074389085, y: 0.27492103, z: -0.04355795, w: 0.95759463}
+      scale: {x: 0.00020147327, y: 0.00020147322, z: 0.00020147326}
+    - name: _3DGeom_8_219
+      parentName: _9980__218
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _221
+      parentName: _3DGeom_8_219
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _220
+      parentName: _221
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_278
+      parentName: _220
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__190
+      parentName: Assembly_2_189
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.4125253, y: -0.33964, z: 0.7016777, w: -0.47129184}
+      scale: {x: 0.00052827725, y: 0.00052827713, z: 0.00052827713}
+    - name: _3DGeom_1_191
+      parentName: Groupe_9__6763__190
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _193
+      parentName: _3DGeom_1_191
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _192
+      parentName: _193
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_243
+      parentName: _192
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__198
+      parentName: Assembly_2_189
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.41252536, y: -0.33964002, z: 0.7016776, w: -0.47129187}
+      scale: {x: 0.00018428605, y: 0.00018428601, z: 0.00018428601}
+    - name: _3DGeom_3_199
+      parentName: Groupe_9__6763__198
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _201
+      parentName: _3DGeom_3_199
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _200
+      parentName: _201
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_253
+      parentName: _200
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__202
+      parentName: Assembly_2_189
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.41252536, y: -0.33963993, z: 0.70167774, w: -0.47129175}
+      scale: {x: 0.0006635931, y: 0.000663593, z: 0.000663593}
+    - name: _3DGeom_4_203
+      parentName: Groupe_9__6763__202
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _205
+      parentName: _3DGeom_4_203
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _204
+      parentName: _205
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_258
+      parentName: _204
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__214
+      parentName: Assembly_2_189
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.41252536, y: -0.33963993, z: 0.70167774, w: -0.47129175}
+      scale: {x: 0.0009381198, y: 0.00093811954, z: 0.0009381196}
+    - name: _3DGeom_7_215
+      parentName: Groupe_9__6763__214
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _217
+      parentName: _3DGeom_7_215
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _216
+      parentName: _217
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_273
+      parentName: _216
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joyo__10964__210
+      parentName: Assembly_2_189
+      position: {x: 1.5258961, y: 5.4887, z: -1.8531262}
+      rotation: {x: -0.4446733, y: 0.40352994, z: 0.51266026, w: 0.61368454}
+      scale: {x: 0.0008013248, y: 0.00022594187, z: 0.0005968289}
+    - name: _3DGeom_6_211
+      parentName: Joyo__10964__210
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _213
+      parentName: _3DGeom_6_211
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _212
+      parentName: _213
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_268
+      parentName: _212
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_11_222
+      parentName: Assembly_1_188
+      position: {x: 5.7682595, y: 6.1220474, z: -63.994217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _6764__227
+      parentName: Assembly_11_222
+      position: {x: 1.4425427, y: 5.3351884, z: -1.0685813}
+      rotation: {x: 0.083026595, y: 0.52786267, z: 0.049559265, w: 0.84380776}
+      scale: {x: 0.0019900405, y: 0.00199004, z: 0.0019900398}
+    - name: _3DGeom_2_228
+      parentName: _6764__227
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _230
+      parentName: _3DGeom_2_228
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _229
+      parentName: _230
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_289
+      parentName: _229
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _9980__239
+      parentName: Assembly_11_222
+      position: {x: 0.8363586, y: 5.2630606, z: -0.73693645}
+      rotation: {x: 0.07438909, y: 0.274921, z: -0.04355795, w: 0.95759463}
+      scale: {x: 0.00019422855, y: 0.00019422849, z: 0.00019422853}
+    - name: _3DGeom_5_240
+      parentName: _9980__239
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _242
+      parentName: _3DGeom_5_240
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _241
+      parentName: _242
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_304
+      parentName: _241
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _9980__251
+      parentName: Assembly_11_222
+      position: {x: 0.8363586, y: 5.2630606, z: -0.73693645}
+      rotation: {x: 0.074389085, y: 0.27492103, z: -0.04355795, w: 0.95759463}
+      scale: {x: 0.00020147327, y: 0.00020147322, z: 0.00020147326}
+    - name: _3DGeom_8_252
+      parentName: _9980__251
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _254
+      parentName: _3DGeom_8_252
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _253
+      parentName: _254
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_319
+      parentName: _253
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__223
+      parentName: Assembly_11_222
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.4125253, y: -0.33964, z: 0.7016777, w: -0.47129184}
+      scale: {x: 0.00052827725, y: 0.00052827713, z: 0.00052827713}
+    - name: _3DGeom_1_224
+      parentName: Groupe_9__6763__223
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _226
+      parentName: _3DGeom_1_224
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _225
+      parentName: _226
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_284
+      parentName: _225
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__231
+      parentName: Assembly_11_222
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.41252536, y: -0.33964002, z: 0.7016776, w: -0.47129187}
+      scale: {x: 0.00018428605, y: 0.00018428601, z: 0.00018428601}
+    - name: _3DGeom_3_232
+      parentName: Groupe_9__6763__231
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _234
+      parentName: _3DGeom_3_232
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _233
+      parentName: _234
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_294
+      parentName: _233
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__235
+      parentName: Assembly_11_222
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.41252536, y: -0.33963993, z: 0.70167774, w: -0.47129175}
+      scale: {x: 0.0006635931, y: 0.000663593, z: 0.000663593}
+    - name: _3DGeom_4_236
+      parentName: Groupe_9__6763__235
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _238
+      parentName: _3DGeom_4_236
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _237
+      parentName: _238
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_299
+      parentName: _237
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Groupe_9__6763__247
+      parentName: Assembly_11_222
+      position: {x: 2.0881405, y: 6.925149, z: -3.0153832}
+      rotation: {x: 0.41252536, y: -0.33963993, z: 0.70167774, w: -0.47129175}
+      scale: {x: 0.0009381198, y: 0.00093811954, z: 0.0009381196}
+    - name: _3DGeom_7_248
+      parentName: Groupe_9__6763__247
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _250
+      parentName: _3DGeom_7_248
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _249
+      parentName: _250
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_314
+      parentName: _249
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joyo__10964__243
+      parentName: Assembly_11_222
+      position: {x: 1.5258961, y: 5.4887, z: -1.8531262}
+      rotation: {x: -0.4446733, y: 0.40352994, z: 0.51266026, w: 0.61368454}
+      scale: {x: 0.0008013248, y: 0.00022594187, z: 0.0005968289}
+    - name: _3DGeom_6_244
+      parentName: Joyo__10964__243
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _246
+      parentName: _3DGeom_6_244
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _245
+      parentName: _246
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_309
+      parentName: _245
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_20_255
+      parentName: Assembly_1_188
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_17_256
+      parentName: Assembly_20_255
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _258
+      parentName: _3DGeom_17_256
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _257
+      parentName: _258
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_324
+      parentName: _257
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_18_259
+      parentName: Assembly_20_255
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _261
+      parentName: _3DGeom_18_259
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _260
+      parentName: _261
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_328
+      parentName: _260
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_19_262
+      parentName: Assembly_20_255
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _264
+      parentName: _3DGeom_19_262
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _263
+      parentName: _264
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_332
+      parentName: _263
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_21_265
+      parentName: Assembly_20_255
+      position: {x: 0.0000000080663085, y: 0, z: -30.708662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_20_266
+      parentName: Assembly_21_265
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _268
+      parentName: _3DGeom_20_266
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _267
+      parentName: _268
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_337
+      parentName: _267
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_22_269
+      parentName: Assembly_21_265
+      position: {x: 1.2795274, y: 15.137795, z: -30.787401}
+      rotation: {x: 0.7071068, y: -3.5731632e-16, z: 0.7071068, w: 3.5731632e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_270
+      parentName: Assembly_22_269
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _272
+      parentName: _3DGeom_21_270
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _271
+      parentName: _272
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_342
+      parentName: _271
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_273
+      parentName: Assembly_22_269
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _275
+      parentName: _3DGeom_22_273
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _274
+      parentName: _275
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_346
+      parentName: _274
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_23_276
+      parentName: Assembly_21_265
+      position: {x: 26.082678, y: 2.066929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_277
+      parentName: Assembly_23_276
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _279
+      parentName: _3DGeom_23_277
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _278
+      parentName: _279
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_351
+      parentName: _278
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_280
+      parentName: Assembly_23_276
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _282
+      parentName: _3DGeom_24_280
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _281
+      parentName: _282
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_355
+      parentName: _281
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_24_283
+      parentName: Assembly_21_265
+      position: {x: 0.01968504, y: 15.137795, z: -1.968477}
+      rotation: {x: 1, y: 6.123234e-17, z: 6.123234e-17, w: 0.000000007450311}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_284
+      parentName: Assembly_24_283
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _286
+      parentName: _3DGeom_21_284
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _285
+      parentName: _286
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_360
+      parentName: _285
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_287
+      parentName: Assembly_24_283
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _289
+      parentName: _3DGeom_22_287
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _288
+      parentName: _289
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_364
+      parentName: _288
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_25_290
+      parentName: Assembly_21_265
+      position: {x: 29.704723, y: 0.01968504, z: -1.968504}
+      rotation: {x: -6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_291
+      parentName: Assembly_25_290
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _293
+      parentName: _3DGeom_21_291
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _292
+      parentName: _293
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_369
+      parentName: _292
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_294
+      parentName: Assembly_25_290
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _296
+      parentName: _3DGeom_22_294
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _295
+      parentName: _296
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_373
+      parentName: _295
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_26_297
+      parentName: Assembly_21_265
+      position: {x: 28.44488, y: 15.137795, z: -0.7086345}
+      rotation: {x: 0.7071068, y: 3.5731632e-16, z: -0.7071068, w: 3.5731632e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_298
+      parentName: Assembly_26_297
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _300
+      parentName: _3DGeom_21_298
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _299
+      parentName: _300
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_378
+      parentName: _299
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_301
+      parentName: Assembly_26_297
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _303
+      parentName: _3DGeom_22_301
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _302
+      parentName: _303
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_382
+      parentName: _302
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_27_304
+      parentName: Assembly_21_265
+      position: {x: 1.2795274, y: 0.01968504, z: -0.7086614}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_305
+      parentName: Assembly_27_304
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _307
+      parentName: _3DGeom_21_305
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _306
+      parentName: _307
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_387
+      parentName: _306
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_308
+      parentName: Assembly_27_304
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _310
+      parentName: _3DGeom_22_308
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _309
+      parentName: _310
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_391
+      parentName: _309
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_28_311
+      parentName: Assembly_21_265
+      position: {x: 26.082678, y: 11.515748, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_312
+      parentName: Assembly_28_311
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _314
+      parentName: _3DGeom_23_312
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _313
+      parentName: _314
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_396
+      parentName: _313
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_315
+      parentName: Assembly_28_311
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _317
+      parentName: _3DGeom_24_315
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _316
+      parentName: _317
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_400
+      parentName: _316
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_29_318
+      parentName: Assembly_21_265
+      position: {x: 2.066929, y: 2.066929, z: -3.5527137e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_319
+      parentName: Assembly_29_318
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _321
+      parentName: _3DGeom_23_319
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _320
+      parentName: _321
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_405
+      parentName: _320
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_322
+      parentName: Assembly_29_318
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _324
+      parentName: _3DGeom_24_322
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _323
+      parentName: _324
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_409
+      parentName: _323
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_30_325
+      parentName: Assembly_21_265
+      position: {x: 2.066929, y: 11.515748, z: -3.5527137e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_326
+      parentName: Assembly_30_325
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _328
+      parentName: _3DGeom_23_326
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _327
+      parentName: _328
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_414
+      parentName: _327
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_329
+      parentName: Assembly_30_325
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _331
+      parentName: _3DGeom_24_329
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _330
+      parentName: _331
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_418
+      parentName: _330
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_31_332
+      parentName: Assembly_21_265
+      position: {x: 15.3507, y: 1.0637307, z: -2.1089547}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_39_333
+      parentName: Assembly_31_332
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _335
+      parentName: _3DGeom_39_333
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _334
+      parentName: _335
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_423
+      parentName: _334
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_40_336
+      parentName: Assembly_31_332
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _338
+      parentName: _3DGeom_40_336
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _337
+      parentName: _338
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_427
+      parentName: _337
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_32_339
+      parentName: Assembly_21_265
+      position: {x: 1.5711727, y: 1.0637307, z: -2.1026688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_39_340
+      parentName: Assembly_32_339
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _342
+      parentName: _3DGeom_39_340
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _341
+      parentName: _342
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_432
+      parentName: _341
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_40_343
+      parentName: Assembly_32_339
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _345
+      parentName: _3DGeom_40_343
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _344
+      parentName: _345
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_436
+      parentName: _344
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_33_346
+      parentName: Assembly_21_265
+      position: {x: 1.5711727, y: 1.8874615, z: -17.509457}
+      rotation: {x: 0.19794522, y: 1.3264801e-31, z: 2.5366137e-32, w: 0.9802131}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_39_347
+      parentName: Assembly_33_346
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _349
+      parentName: _3DGeom_39_347
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _348
+      parentName: _349
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_441
+      parentName: _348
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_40_350
+      parentName: Assembly_33_346
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _352
+      parentName: _3DGeom_40_350
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _351
+      parentName: _352
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_445
+      parentName: _351
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_34_353
+      parentName: Assembly_21_265
+      position: {x: 15.3507, y: 1.8899009, z: -17.515251}
+      rotation: {x: 0.19794522, y: 1.3264801e-31, z: 2.5366137e-32, w: 0.9802131}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_39_354
+      parentName: Assembly_34_353
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _356
+      parentName: _3DGeom_39_354
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _355
+      parentName: _356
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_450
+      parentName: _355
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_40_357
+      parentName: Assembly_34_353
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _359
+      parentName: _3DGeom_40_357
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _358
+      parentName: _359
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_454
+      parentName: _358
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_35_360
+      parentName: Assembly_21_265
+      position: {x: 12.795285, y: 6.121703, z: -29.52753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_47_361
+      parentName: Assembly_35_360
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _363
+      parentName: _3DGeom_47_361
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _362
+      parentName: _363
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_459
+      parentName: _362
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_48_364
+      parentName: Assembly_35_360
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _366
+      parentName: _3DGeom_48_364
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _365
+      parentName: _366
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_463
+      parentName: _365
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_36_367
+      parentName: Assembly_21_265
+      position: {x: 16.929134, y: 6.121703, z: -29.52753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_47_368
+      parentName: Assembly_36_367
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _370
+      parentName: _3DGeom_47_368
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _369
+      parentName: _370
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_468
+      parentName: _369
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_48_371
+      parentName: Assembly_36_367
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _373
+      parentName: _3DGeom_48_371
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _372
+      parentName: _373
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_472
+      parentName: _372
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_37_374
+      parentName: Assembly_21_265
+      position: {x: 29.704723, y: 15.137795, z: -29.527557}
+      rotation: {x: -6.123235e-17, y: -0.000000007450311, z: 1, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_375
+      parentName: Assembly_37_374
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _377
+      parentName: _3DGeom_21_375
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _376
+      parentName: _377
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_477
+      parentName: _376
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_378
+      parentName: Assembly_37_374
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _380
+      parentName: _3DGeom_22_378
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _379
+      parentName: _380
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_481
+      parentName: _379
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_38_381
+      parentName: Assembly_21_265
+      position: {x: 3.1694112, y: 12.809216, z: -24.488188}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_53_382
+      parentName: Assembly_38_381
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _384
+      parentName: _3DGeom_53_382
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _383
+      parentName: _384
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_486
+      parentName: _383
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_54_385
+      parentName: Assembly_38_381
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _387
+      parentName: _3DGeom_54_385
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _386
+      parentName: _387
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_490
+      parentName: _386
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_39_388
+      parentName: Assembly_21_265
+      position: {x: 26.555239, y: 6.4312634, z: -24.488188}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_53_389
+      parentName: Assembly_39_388
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _391
+      parentName: _3DGeom_53_389
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _390
+      parentName: _391
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_495
+      parentName: _390
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_54_392
+      parentName: Assembly_39_388
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _394
+      parentName: _3DGeom_54_392
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _393
+      parentName: _394
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_499
+      parentName: _393
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_41_399
+      parentName: Assembly_21_265
+      position: {x: 1.2795274, y: 0.88582677, z: -1.968504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_58_400
+      parentName: Assembly_41_399
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _402
+      parentName: _3DGeom_58_400
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _401
+      parentName: _402
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_509
+      parentName: _401
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part_42_403
+      parentName: Assembly_41_399
+      position: {x: 7.0225534, y: 0.37083876, z: -14.4950905}
+      rotation: {x: -0.5531467, y: 0, z: -0, w: 0.83308387}
+      scale: {x: 0.03, y: 0.03, z: 0.03}
+    - name: _3DGeom_59_404
+      parentName: Part_42_403
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _406
+      parentName: _3DGeom_59_404
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _405
+      parentName: _406
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_514
+      parentName: _405
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_43_407
+      parentName: Assembly_21_265
+      position: {x: 14.409448, y: 14.271652, z: -19.985779}
+      rotation: {x: 0, y: -0.7071068, z: 0.7071068, w: -8.659561e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_60_408
+      parentName: Assembly_43_407
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _410
+      parentName: _3DGeom_60_408
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _409
+      parentName: _410
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_519
+      parentName: _409
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_61_411
+      parentName: Assembly_43_407
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _413
+      parentName: _3DGeom_61_411
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _412
+      parentName: _413
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_523
+      parentName: _412
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_62_414
+      parentName: Assembly_43_407
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _416
+      parentName: _3DGeom_62_414
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _415
+      parentName: _416
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_527
+      parentName: _415
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_44_417
+      parentName: Assembly_21_265
+      position: {x: 15.984251, y: 14.271652, z: -19.985779}
+      rotation: {x: 0, y: -0.7071068, z: 0.7071068, w: -8.659561e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_63_418
+      parentName: Assembly_44_417
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _420
+      parentName: _3DGeom_63_418
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _419
+      parentName: _420
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_532
+      parentName: _419
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_64_421
+      parentName: Assembly_44_417
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _423
+      parentName: _3DGeom_64_421
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _422
+      parentName: _423
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_536
+      parentName: _422
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_65_424
+      parentName: Assembly_44_417
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _426
+      parentName: _3DGeom_65_424
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _425
+      parentName: _426
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_540
+      parentName: _425
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part_40_395
+      parentName: Assembly_21_265
+      position: {x: 1.2795274, y: 0.6889764, z: -1.968504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_57_396
+      parentName: Part_40_395
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _398
+      parentName: _3DGeom_57_396
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _397
+      parentName: _398
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_504
+      parentName: _397
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_45_427
+      parentName: Assembly_20_255
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_66_428
+      parentName: Assembly_45_427
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _430
+      parentName: _3DGeom_66_428
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _429
+      parentName: _430
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_545
+      parentName: _429
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_46_431
+      parentName: Assembly_45_427
+      position: {x: 29.704723, y: 15.137795, z: -29.527557}
+      rotation: {x: -6.123235e-17, y: -0.000000007450311, z: 1, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_432
+      parentName: Assembly_46_431
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _434
+      parentName: _3DGeom_21_432
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _433
+      parentName: _434
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_550
+      parentName: _433
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_435
+      parentName: Assembly_46_431
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _437
+      parentName: _3DGeom_22_435
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _436
+      parentName: _437
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_554
+      parentName: _436
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_47_438
+      parentName: Assembly_45_427
+      position: {x: 0.01968504, y: 15.137795, z: -1.968477}
+      rotation: {x: 1, y: 6.123234e-17, z: 6.123234e-17, w: 0.000000007450311}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_439
+      parentName: Assembly_47_438
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _441
+      parentName: _3DGeom_21_439
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _440
+      parentName: _441
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_559
+      parentName: _440
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_442
+      parentName: Assembly_47_438
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _444
+      parentName: _3DGeom_22_442
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _443
+      parentName: _444
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_563
+      parentName: _443
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_48_445
+      parentName: Assembly_45_427
+      position: {x: 1.2795274, y: 0.01968504, z: -0.7086614}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_446
+      parentName: Assembly_48_445
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _448
+      parentName: _3DGeom_21_446
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _447
+      parentName: _448
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_568
+      parentName: _447
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_449
+      parentName: Assembly_48_445
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _451
+      parentName: _3DGeom_22_449
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _450
+      parentName: _451
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_572
+      parentName: _450
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_49_452
+      parentName: Assembly_45_427
+      position: {x: 29.704723, y: 0.01968504, z: -1.968504}
+      rotation: {x: -6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_453
+      parentName: Assembly_49_452
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _455
+      parentName: _3DGeom_21_453
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _454
+      parentName: _455
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_577
+      parentName: _454
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_456
+      parentName: Assembly_49_452
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _458
+      parentName: _3DGeom_22_456
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _457
+      parentName: _458
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_581
+      parentName: _457
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_50_459
+      parentName: Assembly_45_427
+      position: {x: 28.44488, y: 0.01968504, z: -30.787374}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_460
+      parentName: Assembly_50_459
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _462
+      parentName: _3DGeom_21_460
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _461
+      parentName: _462
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_586
+      parentName: _461
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_463
+      parentName: Assembly_50_459
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _465
+      parentName: _3DGeom_22_463
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _464
+      parentName: _465
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_590
+      parentName: _464
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_51_466
+      parentName: Assembly_45_427
+      position: {x: 1.2795274, y: 0.8031495, z: -1.968504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_77_467
+      parentName: Assembly_51_466
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _469
+      parentName: _3DGeom_77_467
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _468
+      parentName: _469
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_595
+      parentName: _468
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part_52_470
+      parentName: Assembly_51_466
+      position: {x: 7.0225534, y: 0.08507161, z: -14.570461}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.03, y: 0.03, z: 0.03}
+    - name: _3DGeom_78_471
+      parentName: Part_52_470
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _473
+      parentName: _3DGeom_78_471
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _472
+      parentName: _473
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_600
+      parentName: _472
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_53_474
+      parentName: Assembly_45_427
+      position: {x: 26.082678, y: 11.515748, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_475
+      parentName: Assembly_53_474
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _477
+      parentName: _3DGeom_23_475
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _476
+      parentName: _477
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_605
+      parentName: _476
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_478
+      parentName: Assembly_53_474
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _480
+      parentName: _3DGeom_24_478
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _479
+      parentName: _480
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_609
+      parentName: _479
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_54_481
+      parentName: Assembly_45_427
+      position: {x: 2.066929, y: 11.515748, z: -4.2188475e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_482
+      parentName: Assembly_54_481
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _484
+      parentName: _3DGeom_23_482
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _483
+      parentName: _484
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_614
+      parentName: _483
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_485
+      parentName: Assembly_54_481
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _487
+      parentName: _3DGeom_24_485
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _486
+      parentName: _487
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_618
+      parentName: _486
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_55_488
+      parentName: Assembly_45_427
+      position: {x: 28.44488, y: 15.137795, z: -0.7086345}
+      rotation: {x: 0.7071068, y: 3.5731632e-16, z: -0.7071068, w: 3.5731632e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_489
+      parentName: Assembly_55_488
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _491
+      parentName: _3DGeom_21_489
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _490
+      parentName: _491
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_623
+      parentName: _490
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_492
+      parentName: Assembly_55_488
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _494
+      parentName: _3DGeom_22_492
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _493
+      parentName: _494
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_627
+      parentName: _493
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_56_495
+      parentName: Assembly_45_427
+      position: {x: 1.2795274, y: 15.137795, z: -30.787401}
+      rotation: {x: 0.7071068, y: -3.5731632e-16, z: 0.7071068, w: 3.5731632e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_496
+      parentName: Assembly_56_495
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _498
+      parentName: _3DGeom_21_496
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _497
+      parentName: _498
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_632
+      parentName: _497
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_499
+      parentName: Assembly_56_495
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _501
+      parentName: _3DGeom_22_499
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _500
+      parentName: _501
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_636
+      parentName: _500
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_57_502
+      parentName: Assembly_45_427
+      position: {x: 0.01968504, y: 0.01968504, z: -29.52753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_21_503
+      parentName: Assembly_57_502
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _505
+      parentName: _3DGeom_21_503
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _504
+      parentName: _505
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_641
+      parentName: _504
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_22_506
+      parentName: Assembly_57_502
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _508
+      parentName: _3DGeom_22_506
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _507
+      parentName: _508
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_645
+      parentName: _507
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_58_509
+      parentName: Assembly_45_427
+      position: {x: 1.5711727, y: 1.0637307, z: -2.1026688}
+      rotation: {x: -5.77e-43, y: -9.045557e-18, z: 3.808655e-18, w: 1}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_89_510
+      parentName: Assembly_58_509
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _512
+      parentName: _3DGeom_89_510
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _511
+      parentName: _512
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_650
+      parentName: _511
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_90_513
+      parentName: Assembly_58_509
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _515
+      parentName: _3DGeom_90_513
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _514
+      parentName: _515
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_654
+      parentName: _514
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_59_516
+      parentName: Assembly_45_427
+      position: {x: 15.3507, y: 1.0637307, z: -2.1089547}
+      rotation: {x: -5.77e-43, y: -9.045557e-18, z: 3.808655e-18, w: 1}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_89_517
+      parentName: Assembly_59_516
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _519
+      parentName: _3DGeom_89_517
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _518
+      parentName: _519
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_659
+      parentName: _518
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_90_520
+      parentName: Assembly_59_516
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _522
+      parentName: _3DGeom_90_520
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _521
+      parentName: _522
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_663
+      parentName: _521
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_60_523
+      parentName: Assembly_45_427
+      position: {x: 1.5711727, y: 1.0637307, z: -16.433378}
+      rotation: {x: -5.77e-43, y: -9.045557e-18, z: 3.808655e-18, w: 1}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_89_524
+      parentName: Assembly_60_523
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _526
+      parentName: _3DGeom_89_524
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _525
+      parentName: _526
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_668
+      parentName: _525
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_90_527
+      parentName: Assembly_60_523
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _529
+      parentName: _3DGeom_90_527
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _528
+      parentName: _529
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_672
+      parentName: _528
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_61_530
+      parentName: Assembly_45_427
+      position: {x: 2.066929, y: 2.066929, z: -4.2188475e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_531
+      parentName: Assembly_61_530
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _533
+      parentName: _3DGeom_23_531
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _532
+      parentName: _533
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_677
+      parentName: _532
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_534
+      parentName: Assembly_61_530
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _536
+      parentName: _3DGeom_24_534
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _535
+      parentName: _536
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_681
+      parentName: _535
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_62_537
+      parentName: Assembly_45_427
+      position: {x: 15.3507, y: 1.0637307, z: -16.439663}
+      rotation: {x: -5.77e-43, y: -9.045557e-18, z: 3.808655e-18, w: 1}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: _3DGeom_89_538
+      parentName: Assembly_62_537
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _540
+      parentName: _3DGeom_89_538
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _539
+      parentName: _540
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_686
+      parentName: _539
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_90_541
+      parentName: Assembly_62_537
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _543
+      parentName: _3DGeom_90_541
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _542
+      parentName: _543
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_690
+      parentName: _542
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_63_544
+      parentName: Assembly_45_427
+      position: {x: 26.082678, y: 2.066929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_23_545
+      parentName: Assembly_63_544
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _547
+      parentName: _3DGeom_23_545
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _546
+      parentName: _547
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_695
+      parentName: _546
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_24_548
+      parentName: Assembly_63_544
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _550
+      parentName: _3DGeom_24_548
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _549
+      parentName: _550
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_699
+      parentName: _549
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_64_551
+      parentName: Assembly_45_427
+      position: {x: 26.555237, y: 4.46276, z: -24.488188}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_101_552
+      parentName: Assembly_64_551
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _554
+      parentName: _3DGeom_101_552
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _553
+      parentName: _554
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_704
+      parentName: _553
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_102_555
+      parentName: Assembly_64_551
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _557
+      parentName: _3DGeom_102_555
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _556
+      parentName: _557
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_708
+      parentName: _556
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_65_558
+      parentName: Assembly_45_427
+      position: {x: 3.169411, y: 10.840713, z: -24.488188}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_101_559
+      parentName: Assembly_65_558
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _561
+      parentName: _3DGeom_101_559
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _560
+      parentName: _561
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_713
+      parentName: _560
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_102_562
+      parentName: Assembly_65_558
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _564
+      parentName: _3DGeom_102_562
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _563
+      parentName: _564
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_717
+      parentName: _563
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_67_569
+      parentName: Assembly_45_427
+      position: {x: 14.409448, y: 14.271652, z: -19.985779}
+      rotation: {x: 0, y: -0.7071068, z: 0.7071068, w: -8.659561e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_106_570
+      parentName: Assembly_67_569
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _572
+      parentName: _3DGeom_106_570
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _571
+      parentName: _572
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_727
+      parentName: _571
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_107_573
+      parentName: Assembly_67_569
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _575
+      parentName: _3DGeom_107_573
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _574
+      parentName: _575
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_731
+      parentName: _574
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_108_576
+      parentName: Assembly_67_569
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _578
+      parentName: _3DGeom_108_576
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _577
+      parentName: _578
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_735
+      parentName: _577
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_68_579
+      parentName: Assembly_45_427
+      position: {x: 15.984251, y: 14.271652, z: -19.985779}
+      rotation: {x: 0, y: -0.7071068, z: 0.7071068, w: -8.659561e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_109_580
+      parentName: Assembly_68_579
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _582
+      parentName: _3DGeom_109_580
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _581
+      parentName: _582
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_740
+      parentName: _581
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_110_583
+      parentName: Assembly_68_579
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _585
+      parentName: _3DGeom_110_583
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _584
+      parentName: _585
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_744
+      parentName: _584
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_111_586
+      parentName: Assembly_68_579
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _588
+      parentName: _3DGeom_111_586
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _587
+      parentName: _588
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_748
+      parentName: _587
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part_66_565
+      parentName: Assembly_45_427
+      position: {x: 1.2795274, y: 0.6889764, z: -1.968504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_105_566
+      parentName: Part_66_565
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _568
+      parentName: _3DGeom_105_566
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _567
+      parentName: _568
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_722
+      parentName: _567
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_69_589
+      parentName: Assembly_20_255
+      position: {x: -0, y: 6.0236216, z: -61.41736}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_112_590
+      parentName: Assembly_69_589
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _592
+      parentName: _3DGeom_112_590
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _591
+      parentName: _592
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_753
+      parentName: _591
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_113_593
+      parentName: Assembly_69_589
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _595
+      parentName: _3DGeom_113_593
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _594
+      parentName: _595
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_757
+      parentName: _594
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_114_596
+      parentName: Assembly_69_589
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _598
+      parentName: _3DGeom_114_596
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _597
+      parentName: _598
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_761
+      parentName: _597
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_115_599
+      parentName: Assembly_69_589
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _601
+      parentName: _3DGeom_115_599
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _600
+      parentName: _601
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_765
+      parentName: _600
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_116_602
+      parentName: Assembly_69_589
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _604
+      parentName: _3DGeom_116_602
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _603
+      parentName: _604
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_769
+      parentName: _603
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_117_605
+      parentName: Assembly_69_589
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _607
+      parentName: _3DGeom_117_605
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _606
+      parentName: _607
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_773
+      parentName: _606
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_118_608
+      parentName: Assembly_69_589
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _610
+      parentName: _3DGeom_118_608
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _609
+      parentName: _610
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_777
+      parentName: _609
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_70_611
+      parentName: Assembly_69_589
+      position: {x: 20.858267, y: 6.5944877, z: -7.6180735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_612
+      parentName: Assembly_70_611
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _614
+      parentName: _3DGeom_119_612
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _613
+      parentName: _614
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_782
+      parentName: _613
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_615
+      parentName: Assembly_70_611
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _617
+      parentName: _3DGeom_120_615
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _616
+      parentName: _617
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_786
+      parentName: _616
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_71_618
+      parentName: Assembly_69_589
+      position: {x: 18.653543, y: 6.5944877, z: -5.8464203}
+      rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_619
+      parentName: Assembly_71_618
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _621
+      parentName: _3DGeom_119_619
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _620
+      parentName: _621
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_791
+      parentName: _620
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_622
+      parentName: Assembly_71_618
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _624
+      parentName: _3DGeom_120_622
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _623
+      parentName: _624
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_795
+      parentName: _623
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_72_625
+      parentName: Assembly_69_589
+      position: {x: 14.114172, y: 6.476378, z: -5.255869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_123_626
+      parentName: Assembly_72_625
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _628
+      parentName: _3DGeom_123_626
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _627
+      parentName: _628
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_800
+      parentName: _627
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_124_629
+      parentName: Assembly_72_625
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _631
+      parentName: _3DGeom_124_629
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _630
+      parentName: _631
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_804
+      parentName: _630
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_73_632
+      parentName: Assembly_69_589
+      position: {x: 19.18504, y: 6.6535435, z: -7.8149242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_633
+      parentName: Assembly_73_632
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _635
+      parentName: _3DGeom_125_633
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _634
+      parentName: _635
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_809
+      parentName: _634
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_636
+      parentName: Assembly_73_632
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _638
+      parentName: _3DGeom_126_636
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _637
+      parentName: _638
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_813
+      parentName: _637
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_74_639
+      parentName: Assembly_69_589
+      position: {x: 14.775591, y: 6.6535435, z: -7.8149242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_640
+      parentName: Assembly_74_639
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _642
+      parentName: _3DGeom_125_640
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _641
+      parentName: _642
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_818
+      parentName: _641
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_643
+      parentName: Assembly_74_639
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _645
+      parentName: _3DGeom_126_643
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _644
+      parentName: _645
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_822
+      parentName: _644
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_75_646
+      parentName: Assembly_69_589
+      position: {x: 14.403884, y: 7.50193, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: -0.8660254, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_647
+      parentName: Assembly_75_646
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _649
+      parentName: _3DGeom_125_647
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _648
+      parentName: _649
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_827
+      parentName: _648
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_650
+      parentName: Assembly_75_646
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _652
+      parentName: _3DGeom_126_650
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _651
+      parentName: _652
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_831
+      parentName: _651
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_76_653
+      parentName: Assembly_69_589
+      position: {x: 16.318897, y: 6.476378, z: -5.255869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_123_654
+      parentName: Assembly_76_653
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _656
+      parentName: _3DGeom_123_654
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _655
+      parentName: _656
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_836
+      parentName: _655
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_124_657
+      parentName: Assembly_76_653
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _659
+      parentName: _3DGeom_124_657
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _658
+      parentName: _659
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_840
+      parentName: _658
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_77_660
+      parentName: Assembly_69_589
+      position: {x: 20.799213, y: 7.007874, z: -5.8464203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_133_661
+      parentName: Assembly_77_660
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _663
+      parentName: _3DGeom_133_661
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _662
+      parentName: _663
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_845
+      parentName: _662
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_134_664
+      parentName: Assembly_77_660
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _666
+      parentName: _3DGeom_134_664
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _665
+      parentName: _666
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_849
+      parentName: _665
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_78_667
+      parentName: Assembly_69_589
+      position: {x: 20.728344, y: 6.476378, z: -5.255869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_123_668
+      parentName: Assembly_78_667
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _670
+      parentName: _3DGeom_123_668
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _669
+      parentName: _670
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_854
+      parentName: _669
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_124_671
+      parentName: Assembly_78_667
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _673
+      parentName: _3DGeom_124_671
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _672
+      parentName: _673
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_858
+      parentName: _672
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_79_674
+      parentName: Assembly_69_589
+      position: {x: 18.594488, y: 7.007874, z: -5.8464203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_133_675
+      parentName: Assembly_79_674
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _677
+      parentName: _3DGeom_133_675
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _676
+      parentName: _677
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_863
+      parentName: _676
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_134_678
+      parentName: Assembly_79_674
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _680
+      parentName: _3DGeom_134_678
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _679
+      parentName: _680
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_867
+      parentName: _679
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_80_681
+      parentName: Assembly_69_589
+      position: {x: 16.389763, y: 7.007874, z: -5.8464203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_133_682
+      parentName: Assembly_80_681
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _684
+      parentName: _3DGeom_133_682
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _683
+      parentName: _684
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_872
+      parentName: _683
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_134_685
+      parentName: Assembly_80_681
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _687
+      parentName: _3DGeom_134_685
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _686
+      parentName: _687
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_876
+      parentName: _686
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_81_688
+      parentName: Assembly_69_589
+      position: {x: 16.608608, y: 7.50193, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: -0.8660254, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_689
+      parentName: Assembly_81_688
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _691
+      parentName: _3DGeom_125_689
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _690
+      parentName: _691
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_881
+      parentName: _690
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_692
+      parentName: Assembly_81_688
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _694
+      parentName: _3DGeom_126_692
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _693
+      parentName: _694
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_885
+      parentName: _693
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_82_695
+      parentName: Assembly_69_589
+      position: {x: 20.858267, y: 6.5944877, z: -5.8464203}
+      rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_696
+      parentName: Assembly_82_695
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _698
+      parentName: _3DGeom_119_696
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _697
+      parentName: _698
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_890
+      parentName: _697
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_699
+      parentName: Assembly_82_695
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _701
+      parentName: _3DGeom_120_699
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _700
+      parentName: _701
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_894
+      parentName: _700
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_83_702
+      parentName: Assembly_69_589
+      position: {x: 14.185039, y: 7.007874, z: -5.8464203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_133_703
+      parentName: Assembly_83_702
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _705
+      parentName: _3DGeom_133_703
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _704
+      parentName: _705
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_899
+      parentName: _704
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_134_706
+      parentName: Assembly_83_702
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _708
+      parentName: _3DGeom_134_706
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _707
+      parentName: _708
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_903
+      parentName: _707
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_84_709
+      parentName: Assembly_69_589
+      position: {x: 19.733912, y: 7.399644, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: 0.86602545, w: 0.49999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_710
+      parentName: Assembly_84_709
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _712
+      parentName: _3DGeom_125_710
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _711
+      parentName: _712
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_908
+      parentName: _711
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_713
+      parentName: Assembly_84_709
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _715
+      parentName: _3DGeom_126_713
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _714
+      parentName: _715
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_912
+      parentName: _714
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_85_716
+      parentName: Assembly_69_589
+      position: {x: 18.523623, y: 6.476378, z: -5.255869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_123_717
+      parentName: Assembly_85_716
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _719
+      parentName: _3DGeom_123_717
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _718
+      parentName: _719
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_917
+      parentName: _718
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_124_720
+      parentName: Assembly_85_716
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _722
+      parentName: _3DGeom_124_720
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _721
+      parentName: _722
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_921
+      parentName: _721
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_86_723
+      parentName: Assembly_69_589
+      position: {x: 14.244094, y: 6.5944877, z: -5.8464203}
+      rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_724
+      parentName: Assembly_86_723
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _726
+      parentName: _3DGeom_119_724
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _725
+      parentName: _726
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_926
+      parentName: _725
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_727
+      parentName: Assembly_86_723
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _729
+      parentName: _3DGeom_120_727
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _728
+      parentName: _729
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_930
+      parentName: _728
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_87_730
+      parentName: Assembly_69_589
+      position: {x: 18.813334, y: 7.50193, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: -0.8660254, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_731
+      parentName: Assembly_87_730
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _733
+      parentName: _3DGeom_125_731
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _732
+      parentName: _733
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_935
+      parentName: _732
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_734
+      parentName: Assembly_87_730
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _736
+      parentName: _3DGeom_126_734
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _735
+      parentName: _736
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_939
+      parentName: _735
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_88_737
+      parentName: Assembly_69_589
+      position: {x: 16.980314, y: 6.6535435, z: -7.8149242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_738
+      parentName: Assembly_88_737
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _740
+      parentName: _3DGeom_125_738
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _739
+      parentName: _740
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_944
+      parentName: _739
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_741
+      parentName: Assembly_88_737
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _743
+      parentName: _3DGeom_126_741
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _742
+      parentName: _743
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_948
+      parentName: _742
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_89_744
+      parentName: Assembly_69_589
+      position: {x: 14.244094, y: 6.5944877, z: -7.6180735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_745
+      parentName: Assembly_89_744
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _747
+      parentName: _3DGeom_119_745
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _746
+      parentName: _747
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_953
+      parentName: _746
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_748
+      parentName: Assembly_89_744
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _750
+      parentName: _3DGeom_120_748
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _749
+      parentName: _750
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_957
+      parentName: _749
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_90_751
+      parentName: Assembly_69_589
+      position: {x: 21.389763, y: 6.6535435, z: -7.8149242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_752
+      parentName: Assembly_90_751
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _754
+      parentName: _3DGeom_125_752
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _753
+      parentName: _754
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_962
+      parentName: _753
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_755
+      parentName: Assembly_90_751
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _757
+      parentName: _3DGeom_126_755
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _756
+      parentName: _757
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_966
+      parentName: _756
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_91_758
+      parentName: Assembly_69_589
+      position: {x: 21.018057, y: 7.50193, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: -0.8660254, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_759
+      parentName: Assembly_91_758
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _761
+      parentName: _3DGeom_125_759
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _760
+      parentName: _761
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_971
+      parentName: _760
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_762
+      parentName: Assembly_91_758
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _764
+      parentName: _3DGeom_126_762
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _763
+      parentName: _764
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_975
+      parentName: _763
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_92_765
+      parentName: Assembly_69_589
+      position: {x: 16.448818, y: 6.5944877, z: -5.8464203}
+      rotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_766
+      parentName: Assembly_92_765
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _768
+      parentName: _3DGeom_119_766
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _767
+      parentName: _768
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_980
+      parentName: _767
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_769
+      parentName: Assembly_92_765
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _771
+      parentName: _3DGeom_120_769
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _770
+      parentName: _771
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_984
+      parentName: _770
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_93_772
+      parentName: Assembly_69_589
+      position: {x: 17.529186, y: 7.399644, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: 0.86602545, w: 0.49999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_773
+      parentName: Assembly_93_772
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _775
+      parentName: _3DGeom_125_773
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _774
+      parentName: _775
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_989
+      parentName: _774
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_776
+      parentName: Assembly_93_772
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _778
+      parentName: _3DGeom_126_776
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _777
+      parentName: _778
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_993
+      parentName: _777
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_94_779
+      parentName: Assembly_69_589
+      position: {x: 16.448818, y: 6.5944877, z: -7.6180735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_780
+      parentName: Assembly_94_779
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _782
+      parentName: _3DGeom_119_780
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _781
+      parentName: _782
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_998
+      parentName: _781
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_783
+      parentName: Assembly_94_779
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _785
+      parentName: _3DGeom_120_783
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _784
+      parentName: _785
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_1002
+      parentName: _784
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_95_786
+      parentName: Assembly_69_589
+      position: {x: 18.653543, y: 6.5944877, z: -7.6180735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_119_787
+      parentName: Assembly_95_786
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _789
+      parentName: _3DGeom_119_787
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _788
+      parentName: _789
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_1007
+      parentName: _788
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_120_790
+      parentName: Assembly_95_786
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _792
+      parentName: _3DGeom_120_790
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _791
+      parentName: _792
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_1011
+      parentName: _791
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_96_793
+      parentName: Assembly_69_589
+      position: {x: 15.324461, y: 7.399644, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: 0.86602545, w: 0.49999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_794
+      parentName: Assembly_96_793
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _796
+      parentName: _3DGeom_125_794
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _795
+      parentName: _796
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_1016
+      parentName: _795
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_797
+      parentName: Assembly_96_793
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _799
+      parentName: _3DGeom_126_797
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _798
+      parentName: _799
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_1020
+      parentName: _798
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Assembly_97_800
+      parentName: Assembly_69_589
+      position: {x: 21.938635, y: 7.399644, z: -7.8149242}
+      rotation: {x: 0, y: 0, z: 0.86602545, w: 0.49999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_125_801
+      parentName: Assembly_97_800
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _803
+      parentName: _3DGeom_125_801
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _802
+      parentName: _803
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_1025
+      parentName: _802
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_126_804
+      parentName: Assembly_97_800
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _806
+      parentName: _3DGeom_126_804
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _805
+      parentName: _806
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_1029
+      parentName: _805
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rory_Plays_old_Strat_75_129_54
+      parentName: _0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GLTF_created_0
+      parentName: Rory_Plays_old_Strat_75_129_54
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GLTF_created_0_rootJoint
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.6469131, y: 0.285488, z: -0.285488, w: 0.6469131}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SkeletonRoot_0_53
+      parentName: GLTF_created_0_rootJoint
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_1_178
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _180
+      parentName: _3DGeom_1_178
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _179
+      parentName: _180
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_2_163
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _165
+      parentName: _3DGeom_2_163
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _164
+      parentName: _165
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_3_154
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _156
+      parentName: _3DGeom_3_154
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _155
+      parentName: _156
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_4_160
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _162
+      parentName: _3DGeom_4_160
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _161
+      parentName: _162
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_7_181
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _183
+      parentName: _3DGeom_7_181
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _182
+      parentName: _183
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_8_157
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _159
+      parentName: _3DGeom_8_157
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _158
+      parentName: _159
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_9_175
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _177
+      parentName: _3DGeom_9_175
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _176
+      parentName: _177
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_10_172
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _174
+      parentName: _3DGeom_10_172
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _173
+      parentName: _174
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_11_166
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _168
+      parentName: _3DGeom_11_166
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _167
+      parentName: _168
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_12_169
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _171
+      parentName: _3DGeom_12_169
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _170
+      parentName: _171
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _3DGeom_13_184
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _186
+      parentName: _3DGeom_13_184
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _185
+      parentName: _186
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skeletonJoint_89_52
+      parentName: SkeletonRoot_0_53
+      position: {x: -0, y: -1183.6793, z: 10.422274}
+      rotation: {x: 1, y: -0.000000043711392, z: -0.00000004371139, w: 1.2591712e-15}
+      scale: {x: 5.1796026, y: 5.1796026, z: 5.1796026}
+    - name: skeletonJoint_82_51
+      parentName: skeletonJoint_89_52
+      position: {x: -0, y: 21.001503, z: 1.9491479}
+      rotation: {x: 0.04625591, y: 0.000000059604634, z: 0.0000000149011585, w: 0.9989296}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: skeletonJoint_80_50
+      parentName: skeletonJoint_82_51
+      position: {x: -0, y: 24.607029, z: -0.0000019352735}
+      rotation: {x: -0.000000025923649, y: -5.7562044e-24, z: -2.2204454e-16, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: skeletonJoint_81_10
+      parentName: skeletonJoint_80_50
+      position: {x: -0, y: 28.122334, z: 0.0000023210569}
+      rotation: {x: -0.0000000019074557, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: skeletonJoint_83_11
+      parentName: skeletonJoint_81_10
+      position: {x: -0, y: 31.637583, z: -0.0000011869915}
+      rotation: {x: -0.046255916, y: -0.000000059604638, z: -0.0000000149011585, w: 0.9989296}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: skeletonJoint_84_1
+      parentName: skeletonJoint_83_11
+      position: {x: -0, y: 12.152904, z: -0.9095162}
+      rotation: {x: 3.38086e-16, y: 7.507015e-32, z: -2.2204454e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skeletonJoint_85_12
+      parentName: skeletonJoint_81_10
+      position: {x: -14.159987, y: 28.7396, z: 0.14736353}
+      rotation: {x: -0.5452674, y: 0.44908494, z: 0.55107844, w: 0.44420576}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999976}
+    - name: skeletonJoint_88_13
+      parentName: skeletonJoint_85_12
+      position: {x: -0.0000796499, y: 29.62038, z: 0.00006677339}
+      rotation: {x: 0.13085248, y: 0.0013945096, z: 0.010566648, w: 0.9913446}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: skeletonJoint_95_33
+      parentName: skeletonJoint_88_13
+      position: {x: 0.00006223065, y: 48.716633, z: 0.000005710744}
+      rotation: {x: -0.03142532, y: 0.00016420818, z: -0.005216927, w: 0.9994925}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: skeletonJoint_96_34
+      parentName: skeletonJoint_95_33
+      position: {x: -0.00007348163, y: 60.573387, z: -0.000026177377}
+      rotation: {x: 0.01432831, y: 0.02687835, z: 0.0038099585, w: 0.99952877}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: skeletonJoint_51_38
+      parentName: skeletonJoint_96_34
+      position: {x: 6.8799667, y: 20.927975, z: 0.033096634}
+      rotation: {x: -0.03882222, y: 0.0012883518, z: -0.03313596, w: 0.99869573}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: skeletonJoint_52_39
+      parentName: skeletonJoint_51_38
+      position: {x: -0.0010426304, y: 5.336331, z: -0.000014076414}
+      rotation: {x: -0.013564083, y: 0.000000005704342, z: 0.000000037143753, w: 0.99990803}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: skeletonJoint_50_37
+      parentName: skeletonJoint_52_39
+      position: {x: -0.002115932, y: 5.1162176, z: 0.000055462406}
+      rotation: {x: 0.08454536, y: -0.0000001242049, z: 0.0000000430377, w: 0.99641967}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: skeletonJoint_57_44
+      parentName: skeletonJoint_96_34
+      position: {x: -6.4053288, y: 19.617138, z: 0.028192252}
+      rotation: {x: -0.042393856, y: -0.00041291362, z: 0.009734416, w: 0.9990535}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: skeletonJoint_59_46
+      parentName: skeletonJoint_57_44
+      position: {x: -0.0022825082, y: 4.639397, z: 0.0000566015}
+      rotation: {x: 0.008412913, y: 0.000000050582432, z: 0.00000013606035, w: 0.99996465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skeletonJoint_60_47
+      parentName: skeletonJoint_59_46
+      position: {x: -0.0011339046, y: 3.8182015, z: 0.000033534463}
+      rotation: {x: 0.06560525, y: -0.000000045880718, z: -0.00000024366088, w: 0.99784565}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: skeletonJoint_97_35
+      parentName: skeletonJoint_96_34
+      position: {x: 1.8959692, y: 20.352316, z: 0.038366508}
+      rotation: {x: 0.015585861, y: -0.00018068615, z: -0.011613361, w: 0.99981105}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: skeletonJoint_53_40
+      parentName: skeletonJoint_97_35
+      position: {x: 0.003989546, y: 6.835411, z: -0.0000056260433}
+      rotation: {x: -0.056691665, y: -0.00000003141757, z: 0.00000017425954, w: 0.99839175}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.9999999}
+    - name: skeletonJoint_55_42
+      parentName: skeletonJoint_53_40
+      position: {x: -0.0022342254, y: 6.1492405, z: -0.00006675797}
+      rotation: {x: 0.004689863, y: 0.00000008013369, z: -0.00000018431977, w: 0.99998903}
+      scale: {x: 1, y: 0.9999999, z: 0.99999976}
+    - name: skeletonJoint_98_36
+      parentName: skeletonJoint_96_34
+      position: {x: 5.1302805, y: 6.837745, z: -2.341256}
+      rotation: {x: -0.13137597, y: 0.03164643, z: -0.23203717, w: 0.9632744}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: skeletonJoint_61_48
+      parentName: skeletonJoint_98_36
+      position: {x: 1.1632352, y: 6.9944787, z: 0.000013943501}
+      rotation: {x: -0.06617395, y: 0.00000009126958, z: -0.00000004749745, w: 0.9978081}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: skeletonJoint_62_49
+      parentName: skeletonJoint_61_48
+      position: {x: -0.20578612, y: 6.6987095, z: 0.0000032327137}
+      rotation: {x: -0.0113834385, y: -0.0000001592973, z: 0.000000113929154, w: 0.9999352}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: skeletonJoint_101_41
+      parentName: skeletonJoint_96_34
+      position: {x: -2.3704085, y: 19.517944, z: 0.127092}
+      rotation: {x: 0.0074302135, y: 0.000077804514, z: 0.010460487, w: 0.9999177}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: skeletonJoint_56_43
+      parentName: skeletonJoint_101_41
+      position: {x: 0.00207184, y: 6.140822, z: 0.000019167794}
+      rotation: {x: -0.04684846, y: -0.000000042309658, z: 0.00000022355366, w: 0.998902}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: skeletonJoint_58_45
+      parentName: skeletonJoint_56_43
+      position: {x: -0.0035949918, y: 5.790554, z: -0.0000055217697}
+      rotation: {x: 0.043998286, y: 0.000000035448352, z: -0.0000000919607, w: 0.9990316}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: skeletonJoint_86_14
+      parentName: skeletonJoint_81_10
+      position: {x: 14.160032, y: 28.762024, z: 0.3884361}
+      rotation: {x: 0.5402803, y: 0.45314664, z: 0.5552893, w: -0.44091848}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
+    - name: skeletonJoint_87_15
+      parentName: skeletonJoint_86_14
+      position: {x: 0.000026051337, y: 29.620327, z: -0.000011062347}
+      rotation: {x: 0.1291408, y: 0.0011470463, z: 0.008807119, w: 0.9915865}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: skeletonJoint_92_23
+      parentName: skeletonJoint_87_15
+      position: {x: 0.0000052452615, y: 48.689835, z: -0.000025700374}
+      rotation: {x: -0.030792756, y: 0.000068618145, z: -0.0022257438, w: 0.99952334}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: skeletonJoint_93_19
+      parentName: skeletonJoint_92_23
+      position: {x: -0.000037779053, y: 60.566082, z: -0.00003068921}
+      rotation: {x: 0.015867367, y: -0.028876573, z: -0.024652444, w: 0.99915296}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999998}
+    - name: __157724__55
+      parentName: skeletonJoint_93_19
+      position: {x: 113.098564, y: 39.8043, z: -86.857956}
+      rotation: {x: 0.29574895, y: 0.49538225, z: 0.80290943, w: -0.14988482}
+      scale: {x: 6.711401, y: 6.711403, z: 6.711401}
+    - name: _57
+      parentName: __157724__55
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _56
+      parentName: _57
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_92
+      parentName: _56
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __160661__58
+      parentName: skeletonJoint_93_19
+      position: {x: 113.098564, y: 39.8043, z: -86.857956}
+      rotation: {x: 0.29574895, y: 0.49538225, z: 0.80290943, w: -0.14988482}
+      scale: {x: 6.711401, y: 6.711403, z: 6.711401}
+    - name: _60
+      parentName: __160661__58
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _59
+      parentName: _60
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_96
+      parentName: _59
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: A_LP__157692__61
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.15072738, y: 0.15072744, z: 0.15072738}
+    - name: _63
+      parentName: A_LP__157692__61
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _62
+      parentName: _63
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_100
+      parentName: _62
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: B_LP__157719__142
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.16521925, y: 0.16521929, z: 0.16521923}
+    - name: _144
+      parentName: B_LP__157719__142
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _143
+      parentName: _144
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_208
+      parentName: _143
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BackPlastic_LP__157694__67
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.3586172, w: 0.24430452}
+      scale: {x: 0.028164947, y: 0.028164957, z: 0.028164946}
+    - name: _69
+      parentName: BackPlastic_LP__157694__67
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _68
+      parentName: _69
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_108
+      parentName: _68
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bridge_LP__157698__79
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.016628796, y: 0.016628802, z: 0.016628796}
+    - name: _81
+      parentName: Bridge_LP__157698__79
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _80
+      parentName: _81
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_124
+      parentName: _80
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BridgeHolder_LP__157710__115
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.0138032455, y: 0.01380325, z: 0.013803246}
+    - name: _117
+      parentName: BridgeHolder_LP__157710__115
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _116
+      parentName: _117
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_172
+      parentName: _116
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BridgeScrews_LP__157709__112
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.012567259, y: 0.012567264, z: 0.012567259}
+    - name: _114
+      parentName: BridgeScrews_LP__157709__112
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _113
+      parentName: _114
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_168
+      parentName: _113
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CableJack_LP__157721__148
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.014280817, y: 0.014280821, z: 0.014280817}
+    - name: _150
+      parentName: CableJack_LP__157721__148
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _149
+      parentName: _150
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_216
+      parentName: _149
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: D_LP__157706__103
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.15550941, y: 0.15550946, z: 0.15550941}
+    - name: _105
+      parentName: D_LP__157706__103
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _104
+      parentName: _105
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_156
+      parentName: _104
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: E_LP__157705__100
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.14601637, y: 0.14601642, z: 0.14601637}
+    - name: _102
+      parentName: E_LP__157705__100
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _101
+      parentName: _102
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_152
+      parentName: _101
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: e_LP__157708__109
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.16998269, y: 0.16998273, z: 0.16998269}
+    - name: _111
+      parentName: e_LP__157708__109
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _110
+      parentName: _111
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_164
+      parentName: _110
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Frets_LP__157718__139
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.77686846, y: 0.45627233, z: 0.3586172, w: 0.24430455}
+      scale: {x: 0.08803661, y: 0.08803664, z: 0.08803661}
+    - name: _141
+      parentName: Frets_LP__157718__139
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _140
+      parentName: _141
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_204
+      parentName: _140
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: G_LP__157701__88
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.1605285, y: 0.16052854, z: 0.1605285}
+    - name: _90
+      parentName: G_LP__157701__88
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _89
+      parentName: _90
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_136
+      parentName: _89
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lever_LP__157715__130
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.005967636, y: 0.005967638, z: 0.005967636}
+    - name: _132
+      parentName: Lever_LP__157715__130
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _131
+      parentName: _132
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_192
+      parentName: _131
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerKnob_LP__157693__64
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.0052975165, y: 0.005297518, z: 0.005297516}
+    - name: _66
+      parentName: LowerKnob_LP__157693__64
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _65
+      parentName: _66
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_104
+      parentName: _65
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerPickUp_LP__157700__85
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.014427311, y: 0.014427315, z: 0.014427311}
+    - name: _87
+      parentName: LowerPickUp_LP__157700__85
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _86
+      parentName: _87
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_132
+      parentName: _86
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerStrapHolder_LP__157711__118
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.0028802408, y: 0.0028802417, z: 0.0028802408}
+    - name: _120
+      parentName: LowerStrapHolder_LP__157711__118
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _119
+      parentName: _120
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_176
+      parentName: _119
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MachineHeads_LP__157696__73
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.027045017, y: 0.027045026, z: 0.027045017}
+    - name: _75
+      parentName: MachineHeads_LP__157696__73
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _74
+      parentName: _75
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_116
+      parentName: _74
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MetalPlate_LP__157697__76
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768684, y: 0.4562723, z: 0.35861728, w: 0.24430461}
+      scale: {x: 0.012828684, y: 0.012828688, z: 0.012828684}
+    - name: _78
+      parentName: MetalPlate_LP__157697__76
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _77
+      parentName: _78
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_120
+      parentName: _77
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleKnob_LP__157707__106
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.0052975165, y: 0.005297518, z: 0.005297516}
+    - name: _108
+      parentName: MiddleKnob_LP__157707__106
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _107
+      parentName: _108
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_160
+      parentName: _107
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddlePickUp_LP__157695__70
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768684, y: 0.4562723, z: 0.35861728, w: 0.24430461}
+      scale: {x: 0.01458009, y: 0.014580094, z: 0.01458009}
+    - name: _72
+      parentName: MiddlePickUp_LP__157695__70
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _71
+      parentName: _72
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_112
+      parentName: _71
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_LP__157716__133
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.13791531, y: 0.13791536, z: 0.13791531}
+    - name: _135
+      parentName: Neck_LP__157716__133
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _134
+      parentName: _135
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_196
+      parentName: _134
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nut_LP__157717__136
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.009474555, y: 0.009474558, z: 0.009474554}
+    - name: _138
+      parentName: Nut_LP__157717__136
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _137
+      parentName: _138
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_200
+      parentName: _137
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PickGuard_LP__157699__82
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.05856219, y: 0.058562208, z: 0.05856219}
+    - name: _84
+      parentName: PickGuard_LP__157699__82
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _83
+      parentName: _84
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_128
+      parentName: _83
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Screw_LP__157712__121
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.05137607, y: 0.051376086, z: 0.05137607}
+    - name: _123
+      parentName: Screw_LP__157712__121
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _122
+      parentName: _123
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_180
+      parentName: _122
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ScrewNut_LP__157703__94
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.0025433088, y: 0.0025433095, z: 0.0025433085}
+    - name: _96
+      parentName: ScrewNut_LP__157703__94
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _95
+      parentName: _96
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_144
+      parentName: _95
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skeletonJoint_22_17
+      parentName: skeletonJoint_93_19
+      position: {x: -6.569491, y: 20.273054, z: 0.06266349}
+      rotation: {x: -0.04729335, y: -0.003841155, z: 0.08085723, w: 0.9955957}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: skeletonJoint_21_16
+      parentName: skeletonJoint_22_17
+      position: {x: 0.0013534541, y: 5.737506, z: 0.000045664798}
+      rotation: {x: 0.008918876, y: 0.00000010640355, z: -0.0000001484149, w: 0.99996024}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: skeletonJoint_23_18
+      parentName: skeletonJoint_21_16
+      position: {x: 0.0007682741, y: 5.2874045, z: -0.00001871098}
+      rotation: {x: 0.04143944, y: -0.00000009570673, z: 0.00000008226379, w: 0.99914104}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: skeletonJoint_25_20
+      parentName: skeletonJoint_93_19
+      position: {x: -1.8598886, y: 20.299068, z: 0.12440234}
+      rotation: {x: 0.0024430489, y: 0.000078083925, z: 0.03193788, w: 0.9994869}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: skeletonJoint_26_21
+      parentName: skeletonJoint_25_20
+      position: {x: -0.0033107821, y: 6.837224, z: -0.0000022562722}
+      rotation: {x: -0.043835808, y: -0.00000017233091, z: 0.00000018286606, w: 0.99903876}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: skeletonJoint_29_24
+      parentName: skeletonJoint_26_21
+      position: {x: 0.0021595263, y: 6.2489676, z: 0.000017728114}
+      rotation: {x: 0.010968761, y: 0.000000074592066, z: -0.00000015388433, w: 0.99993986}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: skeletonJoint_94_22
+      parentName: skeletonJoint_93_19
+      position: {x: 2.3036423, y: 19.552296, z: 0.08815753}
+      rotation: {x: 0.008941874, y: -0.000051946758, z: -0.00580445, w: 0.9999432}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: skeletonJoint_30_25
+      parentName: skeletonJoint_94_22
+      position: {x: -0.0012350183, y: 6.198737, z: 0.000029908571}
+      rotation: {x: -0.046903, y: -0.000000011124926, z: 0.000000014662862, w: 0.99889946}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: skeletonJoint_32_27
+      parentName: skeletonJoint_30_25
+      position: {x: 0.0053194836, y: 5.850737, z: -0.000033625296}
+      rotation: {x: 0.07170355, y: -0.00000020204325, z: -0.00000008080177, w: 0.99742603}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: skeletonJoint_99_26
+      parentName: skeletonJoint_93_19
+      position: {x: 6.1257877, y: 18.482933, z: -0.19147372}
+      rotation: {x: 0.0039549237, y: -0.00004740636, z: -0.01198446, w: 0.99992037}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: skeletonJoint_33_28
+      parentName: skeletonJoint_99_26
+      position: {x: -0.0025381227, y: 5.2075477, z: -0.000032373093}
+      rotation: {x: -0.051261988, y: 0.0000001195912, z: 0.00000010436423, w: 0.99868524}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: skeletonJoint_34_29
+      parentName: skeletonJoint_33_28
+      position: {x: 0.0029990324, y: 4.266402, z: 0.00001424707}
+      rotation: {x: 0.031451948, y: -0.000000087803684, z: -0.00000008604432, w: 0.9995053}
+      scale: {x: 0.99999976, y: 0.99999994, z: 1}
+    - name: skeletonJoint_100_30
+      parentName: skeletonJoint_93_19
+      position: {x: -4.997998, y: 6.525651, z: -2.2863107}
+      rotation: {x: -0.13226855, y: -0.034236174, z: 0.2482298, w: 0.9590177}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: skeletonJoint_36_31
+      parentName: skeletonJoint_100_30
+      position: {x: -0.96342975, y: 6.75703, z: -0.000007764573}
+      rotation: {x: -0.08099986, y: 0.00000008568167, z: -0.0000001620501, w: 0.9967141}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: skeletonJoint_37_32
+      parentName: skeletonJoint_36_31
+      position: {x: 0.36634028, y: 6.9250646, z: 0.0000029418168}
+      rotation: {x: 0.08028056, y: 0.000000029633176, z: 0.000000029341319, w: 0.9967723}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: StringHolder_LP__157722__151
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.0025310917, y: 0.0025310926, z: 0.0025310917}
+    - name: _153
+      parentName: StringHolder_LP__157722__151
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _152
+      parentName: _153
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_220
+      parentName: _152
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TuningMachine_LP__157720__145
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768684, y: 0.4562723, z: 0.35861728, w: 0.24430461}
+      scale: {x: 0.028819501, y: 0.028819509, z: 0.0288195}
+    - name: _147
+      parentName: TuningMachine_LP__157720__145
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _146
+      parentName: _147
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_212
+      parentName: _146
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TuningPeg_LP__157702__91
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.2443045}
+      scale: {x: 0.027093431, y: 0.027093438, z: 0.02709343}
+    - name: _93
+      parentName: TuningPeg_LP__157702__91
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _92
+      parentName: _93
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_140
+      parentName: _92
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperKnob_LP__157713__124
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.0052975165, y: 0.005297518, z: 0.005297516}
+    - name: _126
+      parentName: UpperKnob_LP__157713__124
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _125
+      parentName: _126
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_184
+      parentName: _125
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperPickUp_LP__157704__97
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768684, y: 0.4562723, z: 0.35861728, w: 0.24430461}
+      scale: {x: 0.01458009, y: 0.014580094, z: 0.01458009}
+    - name: _99
+      parentName: UpperPickUp_LP__157704__97
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _98
+      parentName: _99
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_148
+      parentName: _98
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperStrapHolder_LP__157714__127
+      parentName: skeletonJoint_93_19
+      position: {x: 103.37658, y: 8.650142, z: -92.97834}
+      rotation: {x: 0.7768685, y: 0.4562722, z: 0.35861722, w: 0.24430451}
+      scale: {x: 0.0030444146, y: 0.0030444155, z: 0.0030444143}
+    - name: _129
+      parentName: UpperStrapHolder_LP__157714__127
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _128
+      parentName: _129
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_188
+      parentName: _128
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skeletonJoint_90_5
+      parentName: skeletonJoint_89_52
+      position: {x: 17.33973, y: -11.674532, z: -1.843615}
+      rotation: {x: -0.00009530971, y: 0.010496618, z: 0.9999037, w: 0.009081053}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: skeletonJoint_102_2
+      parentName: skeletonJoint_90_5
+      position: {x: 0.0000028636791, y: 96.1466, z: -0.00000035760985}
+      rotation: {x: -0.0050185183, y: -0.000108096334, z: 0.021535728, w: 0.9997555}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: skeletonJoint_103_3
+      parentName: skeletonJoint_102_2
+      position: {x: -0.0000016097448, y: 94.924225, z: 0.000003119322}
+      rotation: {x: -0.46075952, y: -0.009694989, z: -0.0050335475, w: 0.88745785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skeletonJoint_104_4
+      parentName: skeletonJoint_103_3
+      position: {x: 0.000005864955, y: 36.58801, z: 0.00000743931}
+      rotation: {x: -0.32849762, y: 0.045333154, z: 0.015787248, w: 0.94328415}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999976}
+    - name: skeletonJoint_91_9
+      parentName: skeletonJoint_89_52
+      position: {x: -17.339724, y: -11.674534, z: -2.6020694}
+      rotation: {x: 0.00010417485, y: 0.011469506, z: 0.999893, w: -0.009080566}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: skeletonJoint_105_7
+      parentName: skeletonJoint_91_9
+      position: {x: -0.0000014318398, y: 96.15072, z: 0}
+      rotation: {x: -0.0073515936, y: 0.00015838235, z: -0.02153622, w: 0.999741}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: skeletonJoint_106_6
+      parentName: skeletonJoint_105_7
+      position: {x: 0.0000037916318, y: 94.92173, z: -0.0000030314918}
+      rotation: {x: -0.44340527, y: 0.010571097, z: 0.0052299094, w: 0.89624363}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: skeletonJoint_107_8
+      parentName: skeletonJoint_106_6
+      position: {x: -0.0000046075984, y: 34.859123, z: 0.0000028866439}
+      rotation: {x: -0.34588063, y: -0.044815138, z: -0.016541775, w: 0.9370617}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: Object_11
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_15
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_19
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_23
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_27
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_31
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_35
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_39
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_43
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_47
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object_51
+      parentName: GLTF_created_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

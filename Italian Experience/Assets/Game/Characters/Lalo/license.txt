@@ -1,0 +1,11 @@
+Model Information:
+* title:	Paisley Cowboy
+* source:	https://sketchfab.com/3d-models/paisley-cowboy-0204c83ec2e1483b89f7c75c1421c7ed
+* author:	restore50 (https://sketchfab.com/restore50)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Paisley Cowboy" (https://sketchfab.com/3d-models/paisley-cowboy-0204c83ec2e1483b89f7c75c1421c7ed) by restore50 (https://sketchfab.com/restore50) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

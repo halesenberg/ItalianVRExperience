@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pastry refrigerator
+* source:	https://sketchfab.com/3d-models/pastry-refrigerator-e1f55492a959443b90de442d5631237d
+* author:	mizorri93 (https://sketchfab.com/mizorri93)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pastry refrigerator" (https://sketchfab.com/3d-models/pastry-refrigerator-e1f55492a959443b90de442d5631237d) by mizorri93 (https://sketchfab.com/mizorri93) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

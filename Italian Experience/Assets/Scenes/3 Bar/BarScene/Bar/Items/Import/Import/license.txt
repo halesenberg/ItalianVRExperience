@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pizza + Tray
+* source:	https://sketchfab.com/3d-models/pizza-tray-31aac326d42541b3be9d23b6469f2016
+* author:	Denny_AS (https://sketchfab.com/Denny_AS)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pizza + Tray" (https://sketchfab.com/3d-models/pizza-tray-31aac326d42541b3be9d23b6469f2016) by Denny_AS (https://sketchfab.com/Denny_AS) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

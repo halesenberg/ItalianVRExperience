@@ -1,0 +1,11 @@
+Model Information:
+* title:	record player table
+* source:	https://sketchfab.com/3d-models/record-player-table-0666a29c14b7418c9708264756bc3c8a
+* author:	Mike Fox (https://sketchfab.com/MikeFoxDesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "record player table" (https://sketchfab.com/3d-models/record-player-table-0666a29c14b7418c9708264756bc3c8a) by Mike Fox (https://sketchfab.com/MikeFoxDesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

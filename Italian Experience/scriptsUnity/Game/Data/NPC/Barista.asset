@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe63b3fb9420742914d4d308354804, type: 3}
+  m_Name: Barista
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.NPCData
+  npcId: Chiara
+  displayName: Chiara
+  bio: Barista, lavora al bar di fiducia. E' il primo punto di contatto con l'utente
+    ogni mattina. Sogna di aprire il suo bar.
+  greetingFast: {fileID: 0}
+  greetingSlow: {fileID: 0}
+  speechRate: 1
+  languageFunctions:
+  - Ordinare / chiedere
+  - "Quantit\xE0 / prezzi"
+  - Salutare (convenevoli)
+  chapters:
+  - chapterIndex: 1
+    trees:
+    - treeId: bar_cap1_sc1
+      entryNodeId: node_01
+      nodes:
+      - nodeId: node_01
+        npcLine_IT: Buongiorno! Desidera?
+        npcLine_EN: 
+        npcVoice: {fileID: 0}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "Un caff\xE8, grazie."
+          text_EN: 
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: "caff\xE8, grazie"
+          correctSound: {fileID: 0}
+        - text_IT: Tutto bene, grazie.
+          text_EN: 
+          nextNodeId: node_02_min
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: tutto bene, grazie
+          correctSound: {fileID: 0}
+        - text_IT: Va bene, grazie.
+          text_EN: 
+          nextNodeId: node_02_min
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: va bene, grazie.
+          correctSound: {fileID: 0}
+        timeoutSeconds: 5
+        timeoutNodeId: 
+        vocabularyTag: Ordinare / chiedere
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_02
+        npcLine_IT: "Ecco il caff\xE8! Spendi 1 euro e 20 centesimi, grazie."
+        npcLine_EN: 
+        npcVoice: {fileID: 0}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Ecco, prego. Arrivederci.
+          text_EN: 
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: ecco, prego, arrivederci.
+          correctSound: {fileID: 0}
+        - text_IT: No, grazie.
+          text_EN: 
+          nextNodeId: node_04
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: no, grazie.
+          correctSound: {fileID: 0}
+        timeoutSeconds: 5
+        timeoutNodeId: 
+        vocabularyTag: Accettare / rifiutare / salutare
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_02_min
+        npcLine_IT: Non ho capito. Vuoi ordinare qualcosa?
+        npcLine_EN: 
+        npcVoice: {fileID: 0}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "S\xEC. Un caff\xE8."
+          text_EN: 
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: "s\xEC"
+          correctSound: {fileID: 0}
+        - text_IT: No, grazie.
+          text_EN: 
+          nextNodeId: node_02_min
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: no, grazie.
+          correctSound: {fileID: 0}
+        timeoutSeconds: 5
+        timeoutNodeId: 
+        vocabularyTag: Ordinare / chiedere
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_03
+        npcLine_IT: Grazie a lei. Buona giornata. Arrivederci!
+        npcLine_EN: 
+        npcVoice: {fileID: 0}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Arrivederci!
+          text_EN: 
+          nextNodeId: 
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+        timeoutSeconds: 5
+        timeoutNodeId: 
+        vocabularyTag: Salutare (convenevoli)
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_04
+        npcLine_IT: Deve pagare. Sono 1 euro e 20 centesimi.
+        npcLine_EN: You have to pay. 1 euro and 20 cents,  please.
+        npcVoice: {fileID: 0}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Ecco a lei. Scusi.
+          text_EN: 
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+        - text_IT: Arrivederci!
+          text_EN: 
+          nextNodeId: node_04
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+        timeoutSeconds: 5
+        timeoutNodeId: 
+        vocabularyTag: Salutare (convenevoli)
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 

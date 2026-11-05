@@ -1,0 +1,11 @@
+Model Information:
+* title:	Living room Interior
+* source:	https://sketchfab.com/3d-models/living-room-interior-b349b6af5fdb4f919ad0f9107a4d5a10
+* author:	Sba Stuff (https://sketchfab.com/sbastuff)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Living room Interior" (https://sketchfab.com/3d-models/living-room-interior-b349b6af5fdb4f919ad0f9107a4d5a10) by Sba Stuff (https://sketchfab.com/sbastuff) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Clippit
+* source:	https://sketchfab.com/3d-models/clippit-fe8e85c14ecd4f6fa5e02ea6ac296eef
+* author:	🇧🇷 SamelCookies 🇧🇷 (https://sketchfab.com/ZamuelWarrior)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Clippit" (https://sketchfab.com/3d-models/clippit-fe8e85c14ecd4f6fa5e02ea6ac296eef) by 🇧🇷 SamelCookies 🇧🇷 (https://sketchfab.com/ZamuelWarrior) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

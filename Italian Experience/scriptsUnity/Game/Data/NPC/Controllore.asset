@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe63b3fb9420742914d4d308354804, type: 3}
+  m_Name: Controllore
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.NPCData
+  npcId: Controllore
+  displayName: Controllore
+  bio: Controllore del treno. Chiede il biglietto.
+  greetingFast: {fileID: 0}
+  greetingSlow: {fileID: 0}
+  speechRate: 1
+  startMood: 0.5
+  languageFunctions:
+  - Accordo / disaccordo
+  chapters:
+  - chapterIndex: 0
+    trees:
+    - treeId: controllore_biglietto
+      entryNodeId: node_01
+      nodes:
+      - nodeId: node_01
+        npcLine_IT: '"Biglietto, prego."'
+        npcLine_EN: '"Ticket, please."'
+        npcVoice: {fileID: 0}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "\"S\xEC. Ecco il biglietto.\""
+          text_EN: '"Yes. Here''s the ticket."'
+          nextNodeId: node_02
+          moodDelta: 0
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+        - text_IT: '"Non ho capito."'
+          text_EN: '"I don''t understand."'
+          nextNodeId: node_01
+          moodDelta: 0
+          isCorrect: 0
+          isHelpOption: 1
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_02
+        npcLine_IT: '"Grazie. Buona giornata!"'
+        npcLine_EN: '"Thank you. Have a good day!"'
+        npcVoice: {fileID: 0}
+        npcVoiceSlow: {fileID: 0}
+        options: []
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 

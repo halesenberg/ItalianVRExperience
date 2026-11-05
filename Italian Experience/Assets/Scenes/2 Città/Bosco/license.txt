@@ -1,0 +1,11 @@
+Model Information:
+* title:	Photogrammetry | 3D scan nature landscape
+* source:	https://sketchfab.com/3d-models/photogrammetry-3d-scan-nature-landscape-e0050374e75347929017942fe761670f
+* author:	Laslo.S (https://sketchfab.com/Laslo.S)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Photogrammetry | 3D scan nature landscape" (https://sketchfab.com/3d-models/photogrammetry-3d-scan-nature-landscape-e0050374e75347929017942fe761670f) by Laslo.S (https://sketchfab.com/Laslo.S) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

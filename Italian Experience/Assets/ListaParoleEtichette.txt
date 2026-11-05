@@ -1,0 +1,40 @@
+Tavolo
+Lavatrice
+Disco
+Sedia
+Finestra
+Vinile
+Carte da gioco
+Doccia
+Ciabatte
+Giradischi
+Pesce
+Sapone
+Padella
+Tavolino
+Divano
+Utensili
+Lavabo
+Tagliere
+Pianta
+Scarico
+Rubinetto
+Cucina
+Gabinetto
+Carta Igienica
+Cestino
+Lavandino
+Piatto
+Computer
+Specchio
+Comodino
+Sedia girevole
+Sgabello
+Libri
+Letto
+Poltrona
+Armadio
+Coperta
+Cuscino
+Libreria
+Porta

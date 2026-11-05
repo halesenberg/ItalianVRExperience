@@ -1,0 +1,11 @@
+Model Information:
+* title:	In-flight tray food demo 2
+* source:	https://sketchfab.com/3d-models/in-flight-tray-food-demo-2-7964f9526e4a421cbb209d6d05080974
+* author:	xchen92 (https://sketchfab.com/xchen92)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "In-flight tray food demo 2" (https://sketchfab.com/3d-models/in-flight-tray-food-demo-2-7964f9526e4a421cbb209d6d05080974) by xchen92 (https://sketchfab.com/xchen92) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

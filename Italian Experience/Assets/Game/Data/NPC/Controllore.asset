@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe63b3fb9420742914d4d308354804, type: 3}
+  m_Name: Controllore
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.NPCData
+  npcId: Controllore
+  displayName: Controllore
+  bio: Controllore del treno. Chiede il biglietto.
+  greetingFast: {fileID: 0}
+  greetingSlow: {fileID: 0}
+  speechRate: 1
+  languageFunctions:
+  - Rispondere ad una richiesta
+  - Chiedere informazioni
+  - Indicare un luogo
+  - Ricevere indicazioni
+  - Riconoscere le direzioni
+  - Ringraziare
+  - Dare il benvenuto
+  - Salutare
+  chapters:
+  - chapterIndex: 1
+    trees:
+    - treeId: controllore_biglietto
+      entryNodeId: node_01
+      nodes:
+      - nodeId: node_01
+        npcLine_IT: Biglietto, prego.
+        npcLine_EN: Ticket, please.
+        npcVoice: {fileID: 8300000, guid: edff1914b24268e4ab01adcab27e33b0, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 5
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_02
+        npcLine_IT: Grazie.
+        npcLine_EN: Thank you.
+        npcVoice: {fileID: 8300000, guid: 04590df63e2c4ae428510ac788225909, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "Dov'\xE8 l'uscita?"
+          text_EN: Where's the exit?
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 10
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+  - chapterIndex: 2
+    trees:
+    - treeId: bigliettaio_indicazioni
+      entryNodeId: node_03
+      nodes:
+      - nodeId: node_03
+        npcLine_IT: "Ecco, l'uscita \xE8 a destra."
+        npcLine_EN: There, exit door is on the right.
+        npcVoice: {fileID: 8300000, guid: efba7bfe8ceed9c469466c56c8dc08b3, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Grazie.
+          text_EN: Thank you.
+          nextNodeId: node_04
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        - text_IT: Scusi?
+          text_EN: Excuse me?
+          nextNodeId: node_03
+          isCorrect: 0
+          isHelpOption: 1
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 10
+        timeoutNodeId: 
+        animationTrigger: Point
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_04
+        npcLine_IT: "Benvenuto in citt\xE0! Arrivederci!"
+        npcLine_EN: Welcome to town!
+        npcVoice: {fileID: 8300000, guid: 5a93792e0fb9e844b994b8a820c0e3e2, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Arrivederci!
+          text_EN: Bye!
+          nextNodeId: 
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 10
+        timeoutNodeId: 
+        animationTrigger: Wave
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 

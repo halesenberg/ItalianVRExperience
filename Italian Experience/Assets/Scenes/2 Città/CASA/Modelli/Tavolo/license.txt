@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dinner table
+* source:	https://sketchfab.com/3d-models/dinner-table-0005ea6ae6944ebd90a4c8de52ecfb2f
+* author:	ilaida (https://sketchfab.com/ilaida)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dinner table" (https://sketchfab.com/3d-models/dinner-table-0005ea6ae6944ebd90a4c8de52ecfb2f) by ilaida (https://sketchfab.com/ilaida) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

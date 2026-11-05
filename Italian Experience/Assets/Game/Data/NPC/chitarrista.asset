@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe63b3fb9420742914d4d308354804, type: 3}
+  m_Name: chitarrista
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.NPCData
+  npcId: chitarrista
+  displayName: Il musicista
+  bio: Suona la chitarra in piazza, ha perso dei soldi dal cappello.
+  greetingFast: {fileID: 0}
+  greetingSlow: {fileID: 0}
+  speechRate: 1
+  languageFunctions:
+  - Asserire
+  - Chiedere
+  - Aiutare
+  - Contare
+  - Fare amicizia
+  chapters:
+  - chapterIndex: 1
+    trees:
+    - treeId: chitarrista_grazie
+      entryNodeId: node_01
+      nodes:
+      - nodeId: node_01
+        npcLine_IT: Suono la chitarra!
+        npcLine_EN: I'm playing guitar!
+        npcVoice: {fileID: 8300000, guid: 0d8a2ad083e1f06448e07efea99a99be, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: I soldi sono tuoi?
+          text_EN: Is this money yours?
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 10
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_02
+        npcLine_IT: Grazie mille! Mi aiuti a contare le monete?
+        npcLine_EN: Thank you so much! Can you help me count my change?
+        npcVoice: {fileID: 8300000, guid: 4285a80cb23696e44b95298f6121910c, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Certo, volentieri!
+          text_EN: Sure, gladly!
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        - text_IT: Non ho capito.
+          text_EN: I don't understand.
+          nextNodeId: node_02
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 10
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_03
+        npcLine_IT: Perfetto. Contiamo le monete.
+        npcLine_EN: Perfect. Let's count the coins.
+        npcVoice: {fileID: 8300000, guid: d402a1c11ef69a442947a7b2fece8bb2, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 0
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+  - chapterIndex: 2
+    trees:
+    - treeId: chitarrista_grazie_aiuto
+      entryNodeId: node_04
+      nodes:
+      - nodeId: node_04
+        npcLine_IT: Grazie per l'aiuto. Sei un amico.
+        npcLine_EN: Thank you  for the help. You're a friend.
+        npcVoice: {fileID: 8300000, guid: c0f1030c0bd0e664caaece3e8432f22b, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Prego!
+          text_EN: You're welcome!
+          nextNodeId: node_05
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        - text_IT: Amico?
+          text_EN: Friend?
+          nextNodeId: node_06
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 10
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_05
+        npcLine_IT: Ci vediamo!
+        npcLine_EN: See ya!
+        npcVoice: {fileID: 8300000, guid: 72bb31532771de94cb4a24c0770b3716, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 0
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_06
+        npcLine_IT: "S\xEC! Gli italiani considerano qualcuno un amico dopo aver
+          ricevuto un favore."
+        npcLine_EN: Yes. Italians consider someone a friend after receiving a favour.
+        npcVoice: {fileID: 8300000, guid: 7341c121590e8e547b01c4970ddd4906, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options: []
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 0
+        isNameCapture: 0
+        voicePromptIT: 
+        timeoutSeconds: 0
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: 
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 

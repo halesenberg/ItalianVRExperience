@@ -1,0 +1,492 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275107e5bec39b34ca5f41ec235dda9b, type: 3}
+  m_Name: VocabularyDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.VocabularyDatabase
+  entries:
+  - word: benvenuto
+    translation_EN: welcome
+    partOfSpeech: adj
+    definition_EN: greeted as a guest with pleasure
+  - word: "citt\xE0"
+    translation_EN: city
+    partOfSpeech: noun
+    definition_EN: a large town
+  - word: destra
+    translation_EN: right
+    partOfSpeech: noun
+    definition_EN: the right side or direction
+  - word: nuovo
+    translation_EN: new
+    partOfSpeech: adj
+    definition_EN: not old or previously existing
+  - word: vicina
+    translation_EN: neighbour (female)
+    partOfSpeech: noun
+    definition_EN: a female person living nearby
+  - word: giro
+    translation_EN: tour / walk
+    partOfSpeech: noun
+    definition_EN: a trip around a place
+  - word: casa
+    translation_EN: house
+    partOfSpeech: noun
+    definition_EN: a building where people live
+  - word: domani
+    translation_EN: tomorrow
+    partOfSpeech: adv
+    definition_EN: the day after today
+  - word: suono
+    translation_EN: I play
+    partOfSpeech: verb
+    definition_EN: to make music with an instrument
+  - word: chitarra
+    translation_EN: guitar
+    partOfSpeech: noun
+    definition_EN: a stringed musical instrument
+  - word: contare
+    translation_EN: to count
+    partOfSpeech: verb
+    definition_EN: to enumerate numbers
+  - word: monete
+    translation_EN: coins
+    partOfSpeech: noun
+    definition_EN: round pieces of metal used as money
+  - word: amico
+    translation_EN: friend
+    partOfSpeech: noun
+    definition_EN: a person with whom one has a bond of mutual affection
+  - word: euro
+    translation_EN: euro
+    partOfSpeech: noun
+    definition_EN: the currency used in most EU countries
+  - word: centesimi
+    translation_EN: cents
+    partOfSpeech: noun
+    definition_EN: one hundredth of a euro
+  - word: buona
+    translation_EN: good (f)
+    partOfSpeech: adj
+    definition_EN: of high quality
+  - word: giornata
+    translation_EN: day
+    partOfSpeech: noun
+    definition_EN: a 24-hour period
+  - word: "caff\xE8"
+    translation_EN: coffee
+    partOfSpeech: noun
+    definition_EN: a hot drink made from roasted coffee beans
+  - word: cappuccino
+    translation_EN: cappuccino
+    partOfSpeech: noun
+    definition_EN: coffee with steamed milk and foam
+  - word: cornetto
+    translation_EN: croissant
+    partOfSpeech: noun
+    definition_EN: a sweet pastry, often eaten for breakfast
+  - word: tazza
+    translation_EN: cup
+    partOfSpeech: noun
+    definition_EN: a drinking vessel
+  - word: acqua
+    translation_EN: water
+    partOfSpeech: noun
+    definition_EN: clear liquid essential for life
+  - word: biglietto
+    translation_EN: ticket
+    partOfSpeech: noun
+    definition_EN: a document giving permission to travel
+  - word: uscita
+    translation_EN: exit
+    partOfSpeech: noun
+    definition_EN: a way out of a place
+  - word: divano
+    translation_EN: sofa
+    partOfSpeech: noun
+    definition_EN: a long seat for multiple people
+  - word: sedia
+    translation_EN: chair
+    partOfSpeech: noun
+    definition_EN: a seat with a backrest for one person
+  - word: sgabello
+    translation_EN: stool
+    partOfSpeech: noun
+    definition_EN: a seat without a backrest
+  - word: panca
+    translation_EN: bench
+    partOfSpeech: noun
+    definition_EN: a long seat for multiple people
+  - word: letto
+    translation_EN: bed
+    partOfSpeech: noun
+    definition_EN: furniture for sleeping
+  - word: tavolo
+    translation_EN: table
+    partOfSpeech: noun
+    definition_EN: a flat surface with legs for placing objects
+  - word: frigorifero
+    translation_EN: fridge
+    partOfSpeech: noun
+    definition_EN: an appliance for keeping food cold
+  - word: cucina
+    translation_EN: kitchen
+    partOfSpeech: noun
+    definition_EN: a room where food is cooked
+  - word: pianta
+    translation_EN: plant
+    partOfSpeech: noun
+    definition_EN: a living organism that grows from the ground
+  - word: buongiorno
+    translation_EN: good morning / hello
+    partOfSpeech: phrase
+    definition_EN: a polite greeting during the day
+  - word: buonasera
+    translation_EN: good evening
+    partOfSpeech: phrase
+    definition_EN: a polite greeting in the evening
+  - word: buonanotte
+    translation_EN: good night
+    partOfSpeech: phrase
+    definition_EN: a polite farewell before sleep
+  - word: arrivederci
+    translation_EN: goodbye
+    partOfSpeech: phrase
+    definition_EN: a formal farewell
+  - word: ciao
+    translation_EN: bye / hello
+    partOfSpeech: phrase
+    definition_EN: an informal greeting or farewell
+  - word: grazie
+    translation_EN: thank you
+    partOfSpeech: phrase
+    definition_EN: an expression of gratitude
+  - word: prego
+    translation_EN: you're welcome
+    partOfSpeech: phrase
+    definition_EN: a polite response to thanks
+  - word: per favore
+    translation_EN: please
+    partOfSpeech: phrase
+    definition_EN: a polite request marker
+  - word: scusa
+    translation_EN: excuse me / sorry
+    partOfSpeech: phrase
+    definition_EN: an apology or attention-getter
+  - word: piacere
+    translation_EN: pleased / nice to meet you
+    partOfSpeech: phrase
+    definition_EN: a response after introductions
+  - word: nessun problema
+    translation_EN: no problem
+    partOfSpeech: phrase
+    definition_EN: a reassuring response
+  - word: va bene
+    translation_EN: okay / alright
+    partOfSpeech: phrase
+    definition_EN: an expression of agreement
+  - word: uno
+    translation_EN: one
+    partOfSpeech: numeral
+    definition_EN: the number 1
+  - word: due
+    translation_EN: two
+    partOfSpeech: numeral
+    definition_EN: the number 2
+  - word: tre
+    translation_EN: three
+    partOfSpeech: numeral
+    definition_EN: the number 3
+  - word: quattro
+    translation_EN: four
+    partOfSpeech: numeral
+    definition_EN: the number 4
+  - word: cinque
+    translation_EN: five
+    partOfSpeech: numeral
+    definition_EN: the number 5
+  - word: sei
+    translation_EN: six
+    partOfSpeech: numeral
+    definition_EN: the number 6
+  - word: sette
+    translation_EN: seven
+    partOfSpeech: numeral
+    definition_EN: the number 7
+  - word: otto
+    translation_EN: eight
+    partOfSpeech: numeral
+    definition_EN: the number 8
+  - word: nove
+    translation_EN: nine
+    partOfSpeech: numeral
+    definition_EN: the number 9
+  - word: dieci
+    translation_EN: ten
+    partOfSpeech: numeral
+    definition_EN: the number 10
+  - word: dove
+    translation_EN: where
+    partOfSpeech: adv
+    definition_EN: asking about a place
+  - word: ecco
+    translation_EN: here it is / there
+    partOfSpeech: interjection
+    definition_EN: used when presenting or pointing something out
+  - word: scusi
+    translation_EN: excuse me (formal)
+    partOfSpeech: phrase
+    definition_EN: polite attention-getter or apology, formal register
+  - word: attenta
+    translation_EN: careful (f)
+    partOfSpeech: adj
+    definition_EN: warning someone (female) to be careful
+  - word: tranquilla
+    translation_EN: don't worry / calm (f)
+    partOfSpeech: adj
+    definition_EN: reassuring someone (female) that everything is fine
+  - word: qui
+    translation_EN: here
+    partOfSpeech: adv
+    definition_EN: indicates this place
+  - word: "s\xEC"
+    translation_EN: yes
+    partOfSpeech: adv
+    definition_EN: affirmative answer
+  - word: appena
+    translation_EN: just / barely
+    partOfSpeech: adv
+    definition_EN: very recently or barely
+  - word: arrivato
+    translation_EN: arrived
+    partOfSpeech: adj
+    definition_EN: having just reached a place
+  - word: come
+    translation_EN: how
+    partOfSpeech: adv
+    definition_EN: asking about manner, e.g. 'come ti chiami?' = what's your name?
+  - word: chiami
+    translation_EN: you are called
+    partOfSpeech: verb
+    definition_EN: from 'chiamarsi', used to ask someone's name
+  - word: bello
+    translation_EN: beautiful / nice
+    partOfSpeech: adj
+    definition_EN: describes something pleasant or attractive
+  - word: bella
+    translation_EN: beautiful / nice (f)
+    partOfSpeech: adj
+    definition_EN: feminine form of 'bello'
+  - word: nome
+    translation_EN: name
+    partOfSpeech: noun
+    definition_EN: what a person or thing is called
+  - word: bar
+    translation_EN: "bar / caf\xE9"
+    partOfSpeech: noun
+    definition_EN: a place serving coffee and drinks
+  - word: tua
+    translation_EN: your (f)
+    partOfSpeech: adj
+    definition_EN: possessive, feminine singular
+  - word: tuoi
+    translation_EN: your (pl)
+    partOfSpeech: adj
+    definition_EN: possessive, masculine plural
+  - word: porto
+    translation_EN: I bring / I carry
+    partOfSpeech: verb
+    definition_EN: from 'portare', to bring or carry
+  - word: mille
+    translation_EN: a thousand / a lot
+    partOfSpeech: numeral
+    definition_EN: used in 'grazie mille' = thanks a lot
+  - word: perfetto
+    translation_EN: perfect
+    partOfSpeech: adj
+    definition_EN: expresses agreement or approval
+  - word: verso
+    translation_EN: towards
+    partOfSpeech: prep
+    definition_EN: indicates direction towards something
+  - word: porta
+    translation_EN: door
+    partOfSpeech: noun
+    definition_EN: an entrance to a room or building
+  - word: entrare
+    translation_EN: to enter
+    partOfSpeech: verb
+    definition_EN: to go into a place
+  - word: bene
+    translation_EN: well / good
+    partOfSpeech: adv
+    definition_EN: expresses that something is good or fine
+  - word: soldi
+    translation_EN: money
+    partOfSpeech: noun
+    definition_EN: currency, cash
+  - word: certo
+    translation_EN: certainly / sure
+    partOfSpeech: adv
+    definition_EN: expresses confident agreement
+  - word: volentieri
+    translation_EN: gladly
+    partOfSpeech: adv
+    definition_EN: willingly, with pleasure
+  - word: capito
+    translation_EN: understood
+    partOfSpeech: verb
+    definition_EN: past participle of 'capire', to understand
+  - word: aiuto
+    translation_EN: help
+    partOfSpeech: noun
+    definition_EN: assistance given to someone
+  - word: vediamo
+    translation_EN: we see / let's see
+    partOfSpeech: verb
+    definition_EN: from 'vedere', used in 'ci vediamo' = see you
+  - word: italiani
+    translation_EN: Italians
+    partOfSpeech: noun
+    definition_EN: people from Italy
+  - word: qualcuno
+    translation_EN: someone
+    partOfSpeech: pron
+    definition_EN: an unspecified person
+  - word: ricevuto
+    translation_EN: received
+    partOfSpeech: verb
+    definition_EN: past participle of 'ricevere', to receive
+  - word: favore
+    translation_EN: favour
+    partOfSpeech: noun
+    definition_EN: a kind or helpful act
+  - word: tutto
+    translation_EN: everything / all
+    partOfSpeech: pron
+    definition_EN: the whole amount or all of something
+  - word: altro
+    translation_EN: other / something else
+    partOfSpeech: pron
+    definition_EN: something in addition or different
+  - word: no
+    translation_EN: no
+    partOfSpeech: adv
+    definition_EN: negative answer
+  - word: qualcosa
+    translation_EN: something
+    partOfSpeech: pron
+    definition_EN: an unspecified thing
+  - word: lei
+    translation_EN: she / you (formal)
+    partOfSpeech: pron
+    definition_EN: third person singular, also used as formal 'you'
+  - word: bisogno
+    translation_EN: need
+    partOfSpeech: noun
+    definition_EN: "used in 'non c'\xE8 bisogno' = there's no need"
+  - word: io
+    translation_EN: I
+    partOfSpeech: pronoun
+    definition_EN: first person singular subject pronoun
+  - word: tu
+    translation_EN: you (singular)
+    partOfSpeech: pronoun
+    definition_EN: second person singular subject pronoun, informal
+  - word: lui
+    translation_EN: he
+    partOfSpeech: pronoun
+    definition_EN: third person singular subject pronoun, masculine
+  - word: noi
+    translation_EN: we
+    partOfSpeech: pronoun
+    definition_EN: first person plural subject pronoun
+  - word: voi
+    translation_EN: you (plural)
+    partOfSpeech: pronoun
+    definition_EN: second person plural subject pronoun
+  - word: loro
+    translation_EN: they / their
+    partOfSpeech: pronoun
+    definition_EN: third person plural subject pronoun; also used as possessive 'their'
+      (invariable)
+  - word: mio
+    translation_EN: my / mine (m)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine singular
+  - word: mia
+    translation_EN: my / mine (f)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine singular
+  - word: miei
+    translation_EN: my / mine (m pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine plural
+  - word: mie
+    translation_EN: my / mine (f pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine plural
+  - word: tuo
+    translation_EN: your / yours (m)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine singular, informal
+  - word: tue
+    translation_EN: your / yours (f pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine plural, informal
+  - word: suo
+    translation_EN: his / her / its (m)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine singular
+  - word: sua
+    translation_EN: his / her / its (f)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine singular
+  - word: suoi
+    translation_EN: his / her / its (m pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine plural
+  - word: sue
+    translation_EN: his / her / its (f pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine plural
+  - word: nostro
+    translation_EN: our / ours (m)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine singular
+  - word: nostra
+    translation_EN: our / ours (f)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine singular
+  - word: nostri
+    translation_EN: our / ours (m pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine plural
+  - word: nostre
+    translation_EN: our / ours (f pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine plural
+  - word: vostro
+    translation_EN: your / yours (m, pl. owner)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine singular, formal/plural owner
+  - word: vostra
+    translation_EN: your / yours (f, pl. owner)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine singular, formal/plural owner
+  - word: vostri
+    translation_EN: your / yours (m pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, masculine plural
+  - word: vostre
+    translation_EN: your / yours (f pl)
+    partOfSpeech: pronoun
+    definition_EN: possessive, feminine plural

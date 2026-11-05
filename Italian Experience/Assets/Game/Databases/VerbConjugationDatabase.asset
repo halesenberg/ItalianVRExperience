@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec33803969c95a3439a00df38a2f14ae, type: 3}
+  m_Name: VerbConjugationDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.VerbConjugationDatabase
+  entries:
+  - infinitive: essere
+    infinitiveEN: to be
+    io: sono
+    tu: sei
+    luiLei: "\xE8"
+    noi: siamo
+    voi: siete
+    loro: sono
+  - infinitive: avere
+    infinitiveEN: to have
+    io: ho
+    tu: hai
+    luiLei: ha
+    noi: abbiamo
+    voi: avete
+    loro: hanno
+  - infinitive: andare
+    infinitiveEN: to go
+    io: vado
+    tu: vai
+    luiLei: va
+    noi: andiamo
+    voi: andate
+    loro: vanno
+  - infinitive: volere
+    infinitiveEN: to want
+    io: voglio
+    tu: vuoi
+    luiLei: vuole
+    noi: vogliamo
+    voi: volete
+    loro: vogliono
+  - infinitive: venire
+    infinitiveEN: to come
+    io: vengo
+    tu: vieni
+    luiLei: viene
+    noi: veniamo
+    voi: venite
+    loro: vengono
+  - infinitive: potere
+    infinitiveEN: can / to be able
+    io: posso
+    tu: puoi
+    luiLei: "pu\xF2"
+    noi: possiamo
+    voi: potete
+    loro: possono
+  - infinitive: capire
+    infinitiveEN: to understand
+    io: capisco
+    tu: capisci
+    luiLei: capisce
+    noi: capiamo
+    voi: capite
+    loro: capiscono
+  - infinitive: suonare
+    infinitiveEN: to play (instrument)
+    io: suono
+    tu: suoni
+    luiLei: suona
+    noi: suoniamo
+    voi: suonate
+    loro: suonano
+  - infinitive: contare
+    infinitiveEN: to count
+    io: conto
+    tu: conti
+    luiLei: conta
+    noi: contiamo
+    voi: contate
+    loro: contano
+  - infinitive: aiutare
+    infinitiveEN: to help
+    io: aiuto
+    tu: aiuti
+    luiLei: aiuta
+    noi: aiutiamo
+    voi: aiutate
+    loro: aiutano
+  - infinitive: camminare
+    infinitiveEN: to walk
+    io: cammino
+    tu: cammini
+    luiLei: cammina
+    noi: camminiamo
+    voi: camminate
+    loro: camminano
+  - infinitive: considerare
+    infinitiveEN: to consider
+    io: considero
+    tu: consideri
+    luiLei: considera
+    noi: consideriamo
+    voi: considerate
+    loro: considerano
+  - infinitive: scusare
+    infinitiveEN: to excuse
+    io: scuso
+    tu: scusi
+    luiLei: scusa
+    noi: scusiamo
+    voi: scusate
+    loro: scusano
+  - infinitive: chiamarsi
+    infinitiveEN: to be called
+    io: mi chiamo
+    tu: ti chiami
+    luiLei: si chiama
+    noi: ci chiamiamo
+    voi: vi chiamate
+    loro: si chiamano
+  - infinitive: arrivare
+    infinitiveEN: to arrive
+    io: arrivo
+    tu: arrivi
+    luiLei: arriva
+    noi: arriviamo
+    voi: arrivate
+    loro: arrivano
+  - infinitive: portare
+    infinitiveEN: to bring / to carry
+    io: porto
+    tu: porti
+    luiLei: porta
+    noi: portiamo
+    voi: portate
+    loro: portano
+  - infinitive: entrare
+    infinitiveEN: to enter
+    io: entro
+    tu: entri
+    luiLei: entra
+    noi: entriamo
+    voi: entrate
+    loro: entrano
+  - infinitive: vedere
+    infinitiveEN: to see
+    io: vedo
+    tu: vedi
+    luiLei: vede
+    noi: vediamo
+    voi: vedete
+    loro: vedono
+  - infinitive: ricevere
+    infinitiveEN: to receive
+    io: ricevo
+    tu: ricevi
+    luiLei: riceve
+    noi: riceviamo
+    voi: ricevete
+    loro: ricevono
+  - infinitive: desiderare
+    infinitiveEN: to wish / to desire
+    io: desidero
+    tu: desideri
+    luiLei: desidera
+    noi: desideriamo
+    voi: desiderate
+    loro: desiderano
+  - infinitive: ordinare
+    infinitiveEN: to order
+    io: ordino
+    tu: ordini
+    luiLei: ordina
+    noi: ordiniamo
+    voi: ordinate
+    loro: ordinano
+  - infinitive: spendere
+    infinitiveEN: to spend
+    io: spendo
+    tu: spendi
+    luiLei: spende
+    noi: spendiamo
+    voi: spendete
+    loro: spendono

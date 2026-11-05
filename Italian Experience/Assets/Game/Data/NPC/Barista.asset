@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe63b3fb9420742914d4d308354804, type: 3}
+  m_Name: Barista
+  m_EditorClassIdentifier: Assembly-CSharp::Bellavalle.Data.NPCData
+  npcId: Chiara
+  displayName: Chiara
+  bio: Barista, lavora al bar di fiducia. E' il primo punto di contatto con l'utente
+    ogni mattina. Sogna di aprire il suo bar.
+  greetingFast: {fileID: 0}
+  greetingSlow: {fileID: 0}
+  speechRate: 1
+  languageFunctions:
+  - Ordinare / chiedere
+  - "Quantit\xE0 / prezzi"
+  - Ringraziare
+  - Dare / pagare
+  - 'Salutare '
+  - Registro formale
+  chapters:
+  - chapterIndex: 1
+    trees:
+    - treeId: bar_cap1_sc1
+      entryNodeId: node_01
+      nodes:
+      - nodeId: node_01
+        npcLine_IT: Buongiorno! Desidera?
+        npcLine_EN: Good morning! What would you like?
+        npcVoice: {fileID: 8300000, guid: 3704b5fffe7216d4ba205ab0da9d2932, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "Un caff\xE8, per favore."
+          text_EN: 
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: "caff\xE8, per favore"
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - "un caff\xE8 per favore"
+        - text_IT: Tutto bene, per favore.
+          text_EN: 
+          nextNodeId: node_02_min
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: tutto bene, per favore
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - tutto bene per favore
+        - text_IT: Va bene, per favore.
+          text_EN: 
+          nextNodeId: node_02_min
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: va bene, grazie.
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - va bene per favore
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: Choose and read an option aloud. (20 seconds)
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: Ordinare / chiedere
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_02
+        npcLine_IT: "Ecco il caff\xE8! Vuole altro?"
+        npcLine_EN: Here's the coffee. Would you like something else?
+        npcVoice: {fileID: 8300000, guid: ed91d5f5aa4a1864cb66fc507ada0d59, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: No, prego.
+          text_EN: 
+          nextNodeId: node_02_min
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: no, prego
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - no prego
+        - text_IT: No, grazie.
+          text_EN: 
+          nextNodeId: node_03
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: no, grazie.
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - no grazie
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: Choose and read an option aloud. (20 seconds)
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: Accettare / rifiutare / salutare
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_02_min
+        npcLine_IT: Non ho capito. Vuole ordinare qualcosa?
+        npcLine_EN: I didn't get it. Would you like to order something?
+        npcVoice: {fileID: 8300000, guid: 28856349bddd431438ebf9ba3cac13bc, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: "S\xEC. Un cornetto."
+          text_EN: 
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: "s\xEC"
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - "s\xEC un cornetto"
+          - un cornetto
+        - text_IT: Voglio una sedia.
+          text_EN: 
+          nextNodeId: node_02
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: no, grazie.
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - voglio una sedia
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: Choose and read an option aloud. (20 seconds)
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: Ordinare / chiedere
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_03
+        npcLine_IT: Grazie a lei. Spende 1 euro e 50 centesimi.
+        npcLine_EN: Thank you. You spend 1 euro and 50 cents.
+        npcVoice: {fileID: 8300000, guid: 91c4d3befe267d149982148a26d4b092, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Ecco a lei.
+          text_EN: Here you are.
+          nextNodeId: node_04
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - ecco a lei
+        - text_IT: "Non c'\xE8 bisogno."
+          text_EN: There's no need.
+          nextNodeId: node_04_DP
+          isCorrect: 0
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - "non c'\xE8 bisogno"
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: Choose and read an option aloud. (20 seconds)
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: Dare / pagare
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_04
+        npcLine_IT: Perfetto. Una buona giornata, arrivederci.
+        npcLine_EN: Perfect. Have a great day, see you next time.
+        npcVoice: {fileID: 8300000, guid: 8bae33d6690ad0741b042375bd8b4938, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Scusi.
+          text_EN: 
+          nextNodeId: node_04_DP
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - scusi
+        - text_IT: Arrivederci!
+          text_EN: 
+          nextNodeId: 
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - arrivederci
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: Choose and read an option aloud. (20 seconds)
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: Salutare (convenevoli)
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
+      - nodeId: node_04_DP
+        npcLine_IT: Non ho capito. Vuole qualcosa?
+        npcLine_EN: Didn't get it. Do you want something else?
+        npcVoice: {fileID: 8300000, guid: 8bae33d6690ad0741b042375bd8b4938, type: 3}
+        npcVoiceSlow: {fileID: 0}
+        options:
+        - text_IT: Scusi.
+          text_EN: 
+          nextNodeId: node_04
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - scusi
+        - text_IT: No. Arrivederci!
+          text_EN: 
+          nextNodeId: 
+          isCorrect: 1
+          isHelpOption: 0
+          vocabularyTag: 
+          correctSound: {fileID: 0}
+          modelAudioIT: {fileID: 0}
+          voiceTriggers:
+          - no arrivederci
+        visualAid: {fileID: 0}
+        isVocabIntro: 0
+        vocabWord: 
+        vocabImage: {fileID: 0}
+        vocabAudio: {fileID: 0}
+        vocabHoldSeconds: 3
+        linearNextNodeId: 
+        useVoiceInput: 1
+        isNameCapture: 0
+        voicePromptIT: Choose and read an option aloud. (20 seconds)
+        timeoutSeconds: 20
+        timeoutNodeId: 
+        animationTrigger: 
+        vocabularyTag: Salutare (convenevoli)
+        keyPhraseIT: 
+        worldAnchor: {fileID: 0}
+        requiredFlags: []
+        requiredMemories: []
+        setFlags: []
+        npcRememberFacts: []
+        completeMissionId: 
